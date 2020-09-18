@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!--  Diseño   -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!--  logica   -->
+        <script type="text/javascript" src="./js/main.js"></script>
+        <!-- <script type="text/javascript" src="./js/getData.js"></script> -->
+        <title>poc[Beta]</title>
+    </head>
+    <body onload="initAll()">
+        <div id="contentfield" class="container buttonstyle">
+            <p><br><input type="button" class="btn btn-primary btn-lg btn-block" onclick="cargarBuffer()" value="cargar buffer del api"></p>
+            <p><br><input type="button" class="btn btn-primary btn-lg btn-block" onclick="onClickMenu('')" value="menú"></p>
+            <div id="contenido"></div><br>
+            <div id="app" class="container"></div>
+        </div>
+    </body>
+</html>

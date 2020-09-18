@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>File Update</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<div>
+  <H3 style='text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;color: white;'>UPDATE CONTENT URL</H3>
+  <form action="index.php" method="post">
+  url: <input type="text" name="url"><br>
+  json list: <input type="text" name="jsonList"><br>
+  <input type="submit">
+  </form>
+</div>
+
+<div>
+  <?php
+
+
+    $url = $_POST["url"];
+    $filename = $_POST["jsonList"];
+    $json = file_get_contents($url);
+    $obj = json_decode($json);
+    var_dump($json);
+
+    $file = fopen("../json/".$filename.".json", "w");
+    fwrite($file, $json . PHP_EOL);
+    fclose($file);
+
+  ?>
+</div>
+
+</body>
+</html>
+<script>
+
+</script>
