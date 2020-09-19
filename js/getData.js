@@ -2,7 +2,7 @@ const API_URL = "http://api.gameoftesla.com/v1/text/";
 let buffer = [];
 export let menuList = [];
 
-function cargarBuffer() {
+export function cargarBuffer() {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
     let myObj = [];
@@ -81,30 +81,15 @@ function showIn(index) {
  *       Carga inicial de ficheros json
  *       diferencia entre "menu" o "textos"
  */
-export function loadContent(url) {
-  return new Promise(function (resolve) {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function () {
-      let myObj = [];
-      if (this.readyState == 4 && this.status == 200) {
-        myObj = JSON.parse(this.responseText);
-        document.getElementById("app").innerHTML = "";
-        if (myObj.length == undefined) {
-          menuList = myObj;
-          //mostrarPorConsola(menuList,"loadcontent");
-          // menu();
-          // return myObj;
-        } else {
-          for (let i = 0; i < myObj.length; i++) {
-            console.log(myObj[i]);
-            buffer[i] = myObj[i];
-          }
-          return buffer;
-        }
-        resolve();
-      }
-    };
-    xmlhttp.open("GET", url, true);
-    xmlhttp.send();
-  });
+export class LoadMenu {
+  constructor(url = "") {
+    return this.#load(url);
+  }
+  #load(url) {
+    return fetch(url)
+      .then((data) => data.json())
+      .then((menu) => {
+        return menu;
+      });
+  }
 }
