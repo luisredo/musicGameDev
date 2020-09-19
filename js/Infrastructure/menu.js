@@ -83,6 +83,3 @@ function valuesOfId(val) {
   }
 }
 
-export function launchTest() {
-  alert("Se lanza la funcion de carga por pantalla de X ejercicio.");
-}

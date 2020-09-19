@@ -1,7 +1,8 @@
-import {  cargarBuffer, showIn } from "./getData.js";
+import { cargarBuffer, showIn } from "./getData.js";
 import { LoadContent } from "./LoadContent.js";
-import { launchTest, onClickMenu } from "./menu.js";
+import { onClickMenu } from "./menu.js";
 import * as utils from "./utils.js";
+import { LaunchTest } from "./LaunchTest.js";
 
 export class Listeners {
   constructor() {
@@ -14,7 +15,7 @@ export class Listeners {
   btnMenuListen() {
     contentfield.addEventListener("click", async function (event) {
       var element = event.path[0];
-      if (utils.thisElementHasClass('btnMenu', element)) {
+      if (utils.thisElementHasClass("btnMenu", element)) {
         var data = element.getAttribute("data");
         var menu = await new LoadContent();
         onClickMenu(data, menu);
@@ -24,9 +25,9 @@ export class Listeners {
 
   launchTestListen() {
     contentfield.addEventListener("click", function (event) {
-      var element = event.path[0]
+      var element = event.path[0];
       if (utils.thisElementHasClass("launchTest", element)) {
-        launchTest();
+        new LaunchTest();
       }
     });
   }
@@ -39,14 +40,12 @@ export class Listeners {
       });
   }
 
-  showInListen(){
-    contentfield.addEventListener('click', function(event){
+  showInListen() {
+    contentfield.addEventListener("click", function (event) {
       var element = event.path[0];
-      if(utils.thisElementHasClass('showin', element)){
-        showIn(element.getAttribute('showin'));
+      if (utils.thisElementHasClass("showin", element)) {
+        showIn(element.getAttribute("showin"));
       }
-
     });
   }
-
 }
