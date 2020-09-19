@@ -1,24 +1,10 @@
+import { API } from "./API.js";
 export class LoadContent {
-  constructor(url = "") {
-    return this.#load(url);
+  #urlMenu = "./json/menu.json";
+  constructor() {
+    return this.#load();
   }
-  async #load(url) {
-    return await fetch(url)
-      .then((data) => data.json())
-      .then((data) => {
-        let myObj = [];
-
-        myObj = data;
-        document.getElementById("app").innerHTML = "";
-        if (myObj.length == undefined) {
-          //
-        } else {
-          for (let i = 0; i < myObj.length; i++) {
-            console.log(myObj[i]);
-            buffer[i] = myObj[i];
-          }
-          return buffer;
-        }
-      });
+  #load() {
+    return new API().get(this.#urlMenu);
   }
 }

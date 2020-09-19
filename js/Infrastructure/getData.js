@@ -74,21 +74,3 @@ export function showIn(index) {
     }
   }
 }
-/*
- *       FINAL PRUBAS DE SETEO INICIAL
- */
-
-/*
- *       loadContent
- *       Carga inicial de ficheros json
- *       diferencia entre "menu" o "textos"
- */
-export class LoadContent {
-  #urlMenu = "./json/menu.json"
-  constructor() {
-    return this.#load();
-  }
-  #load() {
-    return new API().get(this.#urlMenu);
-  }
-}

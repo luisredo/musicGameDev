@@ -1,4 +1,5 @@
-import { LoadContent, cargarBuffer } from "./getData.js";
+import {  cargarBuffer } from "./getData.js";
+import { LoadContent } from "./LoadContent.js";
 import { launchTest, onClickMenu } from "./menu.js";
 import * as utils from "./utils.js";
 

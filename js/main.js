@@ -1,5 +1,5 @@
-import { LoadContent } from "./Infrastructure/getData.js";
 import { Listeners } from "./Infrastructure/Listeners.js";
+import { LoadContent } from "./Infrastructure/LoadContent.js";
 import { devShow } from "./Infrastructure/menu.js";
 
 async function initAll() {
