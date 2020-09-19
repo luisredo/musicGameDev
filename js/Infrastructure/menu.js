@@ -18,18 +18,7 @@ export function devShow(menu) {
   return new Promise((resolve) => {
     var route = [];
     var options = new SearchKey(menu, route);
-    
-
-    route.push(options[0]);
-
-    options = new SearchKey(menu, route);
-    
-
-    route.push(options[1]);
-    options = new SearchKey(menu, route);
-
-    route.push(options[2]);
-    options = new SearchKey(menu, route);
+    route.push(options);
     resolve();
   });
 }

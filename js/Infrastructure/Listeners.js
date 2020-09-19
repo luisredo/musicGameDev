@@ -1,4 +1,4 @@
-import {  cargarBuffer } from "./getData.js";
+import {  cargarBuffer, showIn } from "./getData.js";
 import { LoadContent } from "./LoadContent.js";
 import { launchTest, onClickMenu } from "./menu.js";
 import * as utils from "./utils.js";
@@ -40,7 +40,11 @@ export class Listeners {
   }
 
   showInListen(){
-    contentfield.addEventListener('click', function(){
+    contentfield.addEventListener('click', function(event){
+      var element = event.path[0];
+      if(utils.thisElementHasClass('showin', element)){
+        showIn(element.getAttribute('showin'));
+      }
 
     });
   }

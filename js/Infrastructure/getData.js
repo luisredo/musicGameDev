@@ -14,10 +14,7 @@ export function cargarBuffer() {
       document.getElementById("contenido").innerHTML = "";
       for (let i = 0; i < myObj.length; i++) {
         buffer[i] = myObj[i];
-        console.log(buffer[i]);
-        //alert("tamaño tags[" + i + "] " + buffer[i].split[0].tags.length);
         recorrerTags(i);
-        //document.getElementById("app").innerHTML += `<p><input type="button" value="titulo: `+ buffer[i].title[0].title + ` | ` + buffer[0].tags[0].tags[0] +  ` | ` + buffer[0].tags[0].tags[1] + `" onclick="`+tagsOnButtons(i,buffer[i].split[0].tags[0])+`"></input></p>`;
       }
     }
   };
@@ -28,12 +25,10 @@ export function cargarBuffer() {
 function recorrerTags(index) {
   let lang = buffer[index].tags[0].tags[0];
   let type = buffer[index].tags[0].tags[1];
-  // alert("size tags ["+buffer[index].split[0].tags.length+"]");
   for (let x = 0; x < buffer[index].split[0].tags.length; x++) {
-    //alert("reocorrertags index: "+index);
-    // tagsOnButtons(buffer[index].split[0].tags[x],index)
+    
     document.getElementById("contenido").innerHTML +=
-      `<p><input type="button" class="btn btn-primary btn-lg btn-block" showIn="` +
+      `<p><input type="button" class="btn btn-primary btn-lg btn-block showin" showin="` +
       index +
       `" value="texto nº ` +
       index +
@@ -50,8 +45,6 @@ function recorrerTags(index) {
 }
 
 function tagsOnButtons(tag, index) {
-  //alert("tagsonbutton index: "+index);
-  //document.getElementById("app").innerHTML += `<p><input type="button" value="titulo: `+ buffer[i].title[0].title + ` | ` + buffer[0].tags[0].tags[0] +  ` | ` + buffer[0].tags[0].tags[1] + `" onclick="`+mostrar()+`"></input></p>`;
   document.getElementById("app").innerHTML +=
     `<p><input type="button" value="titulo: ` +
     tag +
