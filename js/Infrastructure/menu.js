@@ -33,32 +33,27 @@ class SearchKey {
 export function devShow(menu) {
   return new Promise((resolve) => {
     var route = [];
-    console.log("json " + menu);
     var options = new SearchKey(menu, route);
-    console.log(options);
+    
 
     route.push(options[0]);
 
     options = new SearchKey(menu, route);
-    console.log(options + " ROUTE0 " + route);
+    
 
     route.push(options[1]);
     options = new SearchKey(menu, route);
-    console.log(options + " ROUTE1 " + route);
 
     route.push(options[2]);
     options = new SearchKey(menu, route);
-    console.log(options + " ROUTE2 " + route);
     resolve();
   });
 }
 
 export function onClickMenu(key, menu) {
-  console.log("onclick key " + key);
   if (key == "") {
     var option = new SearchKey(menu, ruta);
     opt.push(option);
-    console.log("ver las opciones " + opt);
     document.getElementById("app").innerHTML +=
       `<br><div id='cat-` + cruta + `' name='` + cruta + `'></div><br>`;
     writeOnScreen(option, "cat-" + cruta);
@@ -72,7 +67,7 @@ export function onClickMenu(key, menu) {
 function nextValueOf(key, menu) {
   ruta.push(key);
   var option = new SearchKey(menu, ruta);
-  console.log(" option " + option + " len " + option.length);
+
   if (option == "") {
     //alert("Este arbol no tiene mas ramas.");
     document.getElementById(
@@ -100,11 +95,9 @@ function writeOnScreen(valor, id) {
       `' \>`;
   }
   cruta++;
-  console.log("RUTA FINAL DE MENU " + ruta);
 }
 
 function valuesOfId(val) {
-  console.log("valuesOfId " + val + " len " + val.length);
   if (val != "") {
     for (let index = 0; index < val.length; index++) {
       if (document.getElementById(val[index]).value == val[index]) {
