@@ -1,27 +1,10 @@
 import { SearchKey } from "./SearchKey.js";
 
 
-export let urlMenu = "../json/menu.json";
 var ruta = []; //  buffer global de ruta y claves para carga de ficheros.
 var opt = []; //  buffer contenedor.
 let cruta = 0; //  contador de divisores.
-let initbool = "true"; //  fix carga diferida de nivel.
 
-function menu() {
-  // devShow();
-  setOnScreen(menuList, "app");
-}
-
-
-
-export function devShow(menu) {
-  return new Promise((resolve) => {
-    var route = [];
-    var options = new SearchKey(menu, route);
-    route.push(options);
-    resolve();
-  });
-}
 
 export function onClickMenu(key, menu) {
   if (key == "") {
