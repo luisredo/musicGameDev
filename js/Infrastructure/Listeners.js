@@ -1,4 +1,4 @@
-import { LoadMenu, cargarBuffer } from "./getData.js";
+import { LoadContent, cargarBuffer } from "./getData.js";
 import { launchTest, onClickMenu } from "./menu.js";
 import * as utils from "./utils.js";
 
@@ -15,7 +15,7 @@ export class Listeners {
       var element = event.path[0];
       if (utils.thisElementHasClass('btnMenu', element)) {
         var data = element.getAttribute("data");
-        var menu = await new LoadMenu();
+        var menu = await new LoadContent();
         onClickMenu(data, menu);
       }
     });

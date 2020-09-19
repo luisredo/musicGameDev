@@ -83,7 +83,7 @@ export function showIn(index) {
  *       Carga inicial de ficheros json
  *       diferencia entre "menu" o "textos"
  */
-export class LoadMenu {
+export class LoadContent {
   #urlMenu = "./json/menu.json"
   constructor() {
     return this.#load();
