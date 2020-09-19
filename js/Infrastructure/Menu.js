@@ -1,71 +1,84 @@
 import { SearchKey } from "./SearchKey.js";
 
-var ruta = []; 
-var opt = [];
-let cruta = 0; 
+export class Menu {
+  #ruta = [];
+  #opt = [];
+  #cruta = 0;
 
-export function onClickMenu(key, menu) {
-  if (key == "") {
-    var option = new SearchKey(menu, ruta);
-    opt.push(option);
-    var app = document.querySelector("#app");
-
-    var div = document.createElement("div");
-    div.setAttribute("id", "cat-" + cruta);
-    div.setAttribute("name", cruta);
-
-    app.appendChild(div);
-
-    writeOnScreen(option, "cat-" + cruta);
-  } else {
-    var app = document.querySelector("#app");
-
-    var div = document.createElement("div");
-    div.setAttribute("id", "cat-" + cruta);
-    div.setAttribute("name", cruta);
-
-    app.appendChild(div);
-
-    writeOnScreen(nextValueOf(key, menu), "cat-" + cruta);
+  constructor(ruta){
+    this.#ruta = ruta;
   }
-}
 
-function nextValueOf(key, menu) {
-  ruta.push(key);
-  var option = new SearchKey(menu, ruta);
+  
 
-  if (option == "") {
-    var app = document.querySelector("#app");
+    
 
-    var button = document.createElement("button");
-    button.setAttribute("class", "btn btn-primary btn-lg launchTest");
-    button.setAttribute("id", "chisclander");
+  onClickMenu(key, menu) {
+    if (key == "") {
+      var option = new SearchKey(menu, this.#ruta.get());
+      this.#opt.push(option);
+      var app = document.querySelector("#app");
 
-    var text = document.createTextNode("lanzar prueba");
+      var div = document.createElement("div");
+      div.setAttribute("id", "cat-" + this.#cruta);
+      div.setAttribute("name", this.#cruta);
 
-    button.appendChild(text);
+      app.appendChild(div);
 
-    app.appendChild(button);
-    return option;
-  } else {
-    return option;
+      this.writeOnScreen(option, "cat-" + this.#cruta);
+    } else {
+      var app = document.querySelector("#app");
+
+      var div = document.createElement("div");
+      div.setAttribute("id", "cat-" + this.#cruta);
+      div.setAttribute("name", this.#cruta);
+
+      app.appendChild(div);
+
+      this.writeOnScreen(this.nextValueOf(key, menu), "cat-" + this.#cruta);
+    }
   }
-}
 
-function writeOnScreen(valor, id) {
-  for (let i = 0; i < valor.length; i++) {
-    var element = document.getElementById(id);
+  nextValueOf(key, menu) {
+    this.#ruta.add(key);
+    debugger;
+    var option = new SearchKey(menu, this.#ruta.get());
 
-    var button = document.createElement('button');
-    button.setAttribute('id', 'boton'+cruta+'_'+ i);
-    button.setAttribute('class', 'btn btn-primary btn-lg btnMenu');
-    button.setAttribute('data', valor[i]);
+    if (option == "") {
+      var app = document.querySelector("#app");
 
-    var text = document.createTextNode(valor[i]);
+      var button = document.createElement("button");
+      button.setAttribute("class", "btn btn-primary btn-lg launchTest");
+      button.setAttribute("id", "chisclander");
 
-    button.appendChild(text);
+      var text = document.createTextNode("lanzar prueba");
 
-    element.appendChild(button);
+      button.appendChild(text);
+
+      app.appendChild(button);
+      return option;
+    } else {
+      return option;
+    }
   }
-  cruta++;
+
+  writeOnScreen(valor, id) {
+    for (let i = 0; i < valor.length; i++) {
+      var element = document.getElementById(id);
+
+      var button = document.createElement("button");
+      button.setAttribute("id", "boton" + this.#cruta + "_" + i);
+      button.setAttribute("class", "btn btn-primary btn-lg btnMenu");
+      button.setAttribute("data", valor[i]);
+
+      var text = document.createTextNode(valor[i]);
+
+      button.appendChild(text);
+
+      element.appendChild(button);
+    }
+    this.#cruta++;
+  }
+  
+  
 }
