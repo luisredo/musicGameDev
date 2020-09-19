@@ -53,16 +53,3 @@ function writeOnScreen(valor, id) {
   cruta++;
 }
 
-function valuesOfId(val) {
-  if (val != "") {
-    for (let index = 0; index < val.length; index++) {
-      if (document.getElementById(val[index]).value == val[index]) {
-        return index;
-        break;
-      }
-    }
-  } else {
-    alert("No se puede mostrar conetenido del menu.");
-  }
-}
-
