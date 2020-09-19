@@ -1,5 +1,5 @@
 import { LoadMenu, cargarBuffer } from "./getData.js";
-import { launchTest, onClickMenu, urlMenu } from "./menu.js";
+import { launchTest, onClickMenu } from "./menu.js";
 import * as utils from "./utils.js";
 
 export class Listeners {
