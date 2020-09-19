@@ -1,6 +1,6 @@
 import { cargarBuffer, showIn } from "./getData.js";
 import { LoadContent } from "./LoadContent.js";
-import { onClickMenu } from "./menu.js";
+import { onClickMenu } from "./Menu.js";
 import * as utils from "./utils.js";
 import { LaunchTest } from "./LaunchTest.js";
 
