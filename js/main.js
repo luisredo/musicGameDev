@@ -1,33 +1,27 @@
-/*
-*       funcion inicial 
-*       Se definen javascript iniciales y funciones de carga
-*/
-function initAll(){
-    importarScript("/js/getData.js", scriptCargado("getData"));
-    importarScript("/js/menu.js", scriptCargado("menu"));
-    //importarScript("/js/####.js", scriptCargado("####"));
-    setTimeout(() => {  loadContent(urlmenu); }, 50);
-    setTimeout(() => {  devShow(); }, 100);
+import { loadContent } from "./getData.js";
+import { urlMenu, devShow, onClickMenu, launchTest } from "./menu.js";
+
+async function initAll() {
+  await loadContent(urlMenu);
+  await devShow();
 }
-/*
-*       Importar js en javascipt
-*/
-function importarScript(nombre, callback) {
-    var s = document.createElement("script");
-    s.onload = callback;
-    s.src = nombre;
-    document.querySelector("head").appendChild(s);
+initAll();
+
+function btnMenuListen() {
+  contentfield.addEventListener("click", function (event) {
+    if (event.path[0].classList.contains("btnMenu")) {
+      var data = event.path[0].getAttribute("data");
+      onClickMenu(data);
+    }
+  });
 }
-/*
-*       reporte por consola del ok en carga
-*/
-function scriptCargado(jsname) {
-    console.log("Carga ok" + jsname);
+btnMenuListen();
+
+function launchTestListen() {
+  contentfield.addEventListener("click", function (event) {
+    if (event.path[0].classList.contains("launchTest")) {
+      launchTest();
+    }
+  });
 }
-/* 
-*       mostrar por consola una lista y su evento.
-*/
-function mostrarPorConsola(lista,evento){
-    console.log("carga "+ evento +" : ");
-    console.log(lista);
-}
+launchTestListen();
