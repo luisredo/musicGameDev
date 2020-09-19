@@ -1,3 +1,5 @@
+import { API } from "./API.js";
+
 const API_URL = "http://api.gameoftesla.com/v1/text/";
 let buffer = [];
 export let menuList = [];
@@ -31,9 +33,9 @@ function recorrerTags(index) {
     //alert("reocorrertags index: "+index);
     // tagsOnButtons(buffer[index].split[0].tags[x],index)
     document.getElementById("contenido").innerHTML +=
-      `<p><input type="button" class="btn btn-primary btn-lg btn-block" onclick="showIn(` +
+      `<p><input type="button" class="btn btn-primary btn-lg btn-block" showIn="` +
       index +
-      `)" value="texto nº ` +
+      `" value="texto nº ` +
       index +
       ` | tag: ` +
       buffer[index].split[0].tags[x] +
@@ -58,7 +60,7 @@ function tagsOnButtons(tag, index) {
     `" \ ></p>`;
 }
 
-function showIn(index) {
+export function showIn(index) {
   document.getElementById("contenido").innerHTML = "";
   document.getElementById("app").innerHTML =
     `<span>` + buffer[index].title[0].title + "</span> <br><br>";
@@ -82,14 +84,11 @@ function showIn(index) {
  *       diferencia entre "menu" o "textos"
  */
 export class LoadMenu {
-  constructor(url = "") {
-    return this.#load(url);
+  #urlMenu = "./json/menu.json"
+  constructor() {
+    return this.#load();
   }
-  #load(url) {
-    return fetch(url)
-      .then((data) => data.json())
-      .then((menu) => {
-        return menu;
-      });
+  #load() {
+    return new API().get(this.#urlMenu);
   }
 }

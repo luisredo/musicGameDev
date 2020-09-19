@@ -1,11 +1,10 @@
-import {LoadMenu} from "./getData.js";
-import { Listeners } from "./listeners.js";
-import { urlMenu, devShow, onClickMenu, launchTest } from "./menu.js";
-
+import {LoadMenu} from "./Infrastructure/getData.js";
+import { Listeners } from "./Infrastructure/Listeners.js";
+import {  devShow} from "./Infrastructure/menu.js";
 
 
 async function initAll() {
-  var menu = await new LoadMenu(urlMenu);
+  var menu = await new LoadMenu();
   
   await devShow(menu);
 

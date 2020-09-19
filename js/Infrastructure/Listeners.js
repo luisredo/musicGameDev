@@ -1,18 +1,21 @@
 import { LoadMenu, cargarBuffer } from "./getData.js";
 import { launchTest, onClickMenu, urlMenu } from "./menu.js";
+import * as utils from "./utils.js";
 
 export class Listeners {
   constructor() {
     this.btnMenuListen();
     this.launchTestListen();
     this.loadBufferListen();
+    this.showInListen();
   }
 
   btnMenuListen() {
     contentfield.addEventListener("click", async function (event) {
-      if (event.path[0].classList.contains("btnMenu")) {
-        var data = event.path[0].getAttribute("data");
-        var menu = await new LoadMenu(urlMenu);
+      var element = event.path[0];
+      if (utils.thisElementHasClass('btnMenu', element)) {
+        var data = element.getAttribute("data");
+        var menu = await new LoadMenu();
         onClickMenu(data, menu);
       }
     });
@@ -20,7 +23,8 @@ export class Listeners {
 
   launchTestListen() {
     contentfield.addEventListener("click", function (event) {
-      if (event.path[0].classList.contains("launchTest")) {
+      var element = event.path[0]
+      if (utils.thisElementHasClass("launchTest", element)) {
         launchTest();
       }
     });
@@ -33,4 +37,11 @@ export class Listeners {
         cargarBuffer();
       });
   }
+
+  showInListen(){
+    contentfield.addEventListener('click', function(){
+
+    });
+  }
+
 }
