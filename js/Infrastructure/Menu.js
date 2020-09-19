@@ -54,18 +54,18 @@ function nextValueOf(key, menu) {
 
 function writeOnScreen(valor, id) {
   for (let i = 0; i < valor.length; i++) {
-    document.getElementById(id).innerHTML +=
-      `<input type='button' id='boton` +
-      cruta +
-      "_" +
-      i +
-      `'class='btn btn-primary btn-lg btnMenu' id="` +
-      valor[i] +
-      `" value='` +
-      valor[i] +
-      `' data='` +
-      valor[i] +
-      `' \>`;
+    var element = document.getElementById(id);
+
+    var button = document.createElement('button');
+    button.setAttribute('id', 'boton'+cruta+'_'+ i);
+    button.setAttribute('class', 'btn btn-primary btn-lg btnMenu');
+    button.setAttribute('data', valor[i]);
+
+    var text = document.createTextNode(valor[i]);
+
+    button.appendChild(text);
+
+    element.appendChild(button);
   }
   cruta++;
 }
