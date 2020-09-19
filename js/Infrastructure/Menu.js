@@ -1,8 +1,8 @@
 import { SearchKey } from "./SearchKey.js";
 
-var ruta = []; //  buffer global de ruta y claves para carga de ficheros.
-var opt = []; //  buffer contenedor.
-let cruta = 0; //  contador de divisores.
+var ruta = []; 
+var opt = [];
+let cruta = 0; 
 
 export function onClickMenu(key, menu) {
   if (key == "") {
