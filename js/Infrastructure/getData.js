@@ -4,29 +4,23 @@ const API_URL = "http://api.gameoftesla.com/v1/text/";
 let buffer = [];
 export let menuList = [];
 
-export function cargarBuffer() {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function () {
-    let myObj = [];
-    if (this.readyState == 4 && this.status == 200) {
-      myObj = JSON.parse(this.responseText);
-      document.getElementById("app").innerHTML = "";
-      document.getElementById("contenido").innerHTML = "";
-      for (let i = 0; i < myObj.length; i++) {
-        buffer[i] = myObj[i];
-        recorrerTags(i);
-      }
-    }
-  };
-  xmlhttp.open("GET", API_URL, true);
-  xmlhttp.send();
+export async function cargarBuffer() {
+  var texts = await new API().get(API_URL);
+  elementClean("#app");
+  elementClean("#contenido");
+  var numberOfTexts = texts.length;
+  for (let text = 0; text < numberOfTexts; text++) {
+    buffer[text] = texts[text];
+    recorrerTags(text);
+  }
+}
+
+function elementClean(element) {
+  return (document.querySelector(element).innerHTML = "");
 }
 
 function recorrerTags(index) {
-  let lang = buffer[index].tags[0].tags[0];
-  let type = buffer[index].tags[0].tags[1];
   for (let x = 0; x < buffer[index].split[0].tags.length; x++) {
-    
     document.getElementById("contenido").innerHTML +=
       `<p><input type="button" class="btn btn-primary btn-lg btn-block showin" showin="` +
       index +
@@ -42,15 +36,6 @@ function recorrerTags(index) {
       buffer[index].tags[0].tags[1] +
       `"></input></p>`;
   }
-}
-
-function tagsOnButtons(tag, index) {
-  document.getElementById("app").innerHTML +=
-    `<p><input type="button" value="titulo: ` +
-    tag +
-    ` onclick="` +
-    mostrar(index) +
-    `" \ ></p>`;
 }
 
 export function showIn(index) {

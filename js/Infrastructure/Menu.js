@@ -13,26 +13,22 @@ export class Menu {
     if (key == "") {
       var option = new SearchKey(menu, this.#ruta.get());
       this.#opt.push(option);
-      var app = document.querySelector("#app");
-
-      var div = document.createElement("div");
-      div.setAttribute("id", "cat-" + this.#cruta);
-      div.setAttribute("name", this.#cruta);
-
-      app.appendChild(div);
-
+      this.#print();
       this.writeOnScreen(option, "cat-" + this.#cruta);
     } else {
-      var app = document.querySelector("#app");
-
-      var div = document.createElement("div");
-      div.setAttribute("id", "cat-" + this.#cruta);
-      div.setAttribute("name", this.#cruta);
-
-      app.appendChild(div);
-
+      this.#print();
       this.writeOnScreen(this.nextValueOf(key, menu), "cat-" + this.#cruta);
     }
+  }
+
+  #print() {
+    var app = document.querySelector("#app");
+
+    var div = document.createElement("div");
+    div.setAttribute("id", "cat-" + this.#cruta);
+    div.setAttribute("name", this.#cruta);
+
+    app.appendChild(div);
   }
 
   nextValueOf(key, menu) {
