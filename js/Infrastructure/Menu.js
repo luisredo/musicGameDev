@@ -5,13 +5,9 @@ export class Menu {
   #opt = [];
   #cruta = 0;
 
-  constructor(ruta){
+  constructor(ruta) {
     this.#ruta = ruta;
   }
-
-  
-
-    
 
   onClickMenu(key, menu) {
     if (key == "") {
@@ -41,7 +37,6 @@ export class Menu {
 
   nextValueOf(key, menu) {
     this.#ruta.add(key);
-    debugger;
     var option = new SearchKey(menu, this.#ruta.get());
 
     if (option == "") {
@@ -63,9 +58,9 @@ export class Menu {
   }
 
   writeOnScreen(valor, id) {
+    var element = document.getElementById(id);
+    var div = document.createElement("div");
     for (let i = 0; i < valor.length; i++) {
-      var element = document.getElementById(id);
-
       var button = document.createElement("button");
       button.setAttribute("id", "boton" + this.#cruta + "_" + i);
       button.setAttribute("class", "btn btn-primary btn-lg btnMenu");
@@ -75,10 +70,9 @@ export class Menu {
 
       button.appendChild(text);
 
-      element.appendChild(button);
+      div.appendChild(button);
     }
+    element.appendChild(div);
     this.#cruta++;
   }
-  
-  
 }
