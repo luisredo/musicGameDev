@@ -1,0 +1,5573 @@
+[
+    {
+        "split": [
+            {
+                "text": "Is",
+                "tags": [
+                    "A0",
+                    "A1",
+                    "B1",
+                    "B2",
+                    "C1"
+                ],
+                "": ""
+            },
+            {
+                "text": "this",
+                "tags": "A1",
+                "": ""
+            },
+            {
+                "text": "the",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "real",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "life?",
+                "tags": "B1",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "C1",
+                "": ""
+            },
+            {
+                "text": "Is",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "this",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "just",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "fantasy?",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Caught",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "in",
+                "tags": "A1",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "landslide",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "No",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "escape",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "from",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "reality",
+                "tags": "B1",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Open",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "your",
+                "tags": "C1",
+                "": ""
+            },
+            {
+                "text": "eyes",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Look",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "up",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "to",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "the",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "skies",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "and",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "see",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "I\u2019m",
+                "tags": "C1",
+                "": ""
+            },
+            {
+                "text": "just",
+                "tags": "B1",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "poor",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "boy",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "I",
+                "tags": "B1",
+                "": ""
+            },
+            {
+                "text": "need",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "no",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "sympathy",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Because",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "I\u2019m",
+                "tags": "B1",
+                "": ""
+            },
+            {
+                "text": "easy",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "come",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "easy",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "A",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "little",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "high",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "little",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "low",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Anyway",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "the",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "wind",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "blows",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "doesn\u2019t",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "really",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "matter",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "to",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "to",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Mama",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "just",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "killed",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "man",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Put",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "gun",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "against",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "his",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "head",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Pulled",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "my",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "trigger",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "now",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "he\u2019s",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "dead",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Mama",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "life",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "had",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "just",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "begun",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "But",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "now",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "I\u2019ve",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "gone",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "and",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "thrown",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "it",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "all",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "away",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Mama",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "ooo",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Didn\u2019t",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "mean",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "to",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "make",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "cry",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "If",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "I\u2019m",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "not",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "back",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "again",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "this",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "time",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "tomorrow",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Carry",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "on",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "carry",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "on",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "as",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "if",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "nothing",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "really",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "matters",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Too",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "late",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "my",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "time",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "has",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "come",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Sends",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "shivers",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "down",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "my",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "spine",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Body\u2019s",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "aching",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "all",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "the",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "time",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Goodbye",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "everybody",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "I\u2019ve",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "got",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "to",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Gotta",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "leave",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "all",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "behind",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "and",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "face",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "the",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "truth",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Mama",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "ooo",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "(anyway",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "the",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "wind",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "blows)",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "I",
+                "tags": "A1",
+                "": ""
+            },
+            {
+                "text": "don\u2019t",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "want",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "to",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "die",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "A1",
+                "": ""
+            },
+            {
+                "text": "I",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "sometimes",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "wish",
+                "tags": "A1",
+                "": ""
+            },
+            {
+                "text": "I\u2019d",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "never",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "been",
+                "tags": "B1",
+                "": ""
+            },
+            {
+                "text": "born",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "at",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "all",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "I",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "see",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "little",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "silhouetto",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "of",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "man",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Scaramouch",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "scaramouch",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "will",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "do",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "the",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "fandango",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Thunderbolt",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "and",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "lightning",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "very",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "very",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "frightening",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Gallileo",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Gallileo",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Gallileo",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Gallileo",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Gallileo",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Figaro",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "-",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "magnifico",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "But",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "I\u2019m",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "just",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "poor",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "boy",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "and",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "nobody",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "loves",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "He\u2019s",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "just",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "poor",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "boy",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "from",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "poor",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "family",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Spare",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "him",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "his",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "life",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "from",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "this",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "monstrosity",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Easy",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "come",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "easy",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "will",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Bismillah!",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "No",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "we",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "will",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "not",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "-",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "him",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Bismillah!",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "We",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "will",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "not",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "-",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "him",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Bismillah!",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "We",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "will",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "not",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Will",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "not",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "(never)",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "A1",
+                "": ""
+            },
+            {
+                "text": "Never",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "A1",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Never",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "ooo",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "No",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "no",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "A1",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "no",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "A1",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "no",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "no",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "no",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "no",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Oh",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "mama",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "mia",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "mama",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "mia",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "mama",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "mia",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "let",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "go",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Beelzebub",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "has",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "a",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "devil",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "put",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "aside",
+                "tags": "B1",
+                "": ""
+            },
+            {
+                "text": "for",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "For",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "B1",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "For",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "So",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "think",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "can",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "stone",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "B1",
+                "": ""
+            },
+            {
+                "text": "and",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "spit",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "in",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "my",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "eye",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "So",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "think",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "you",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "can",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "love",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "and",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "leave",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "to",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "die",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Oh",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "baby",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "can\u2019t",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "do",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "this",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "to",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "baby",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Just",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "gotta",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "get",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "out",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "just",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "gotta",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "get",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "right",
+                "tags": "B2",
+                "": ""
+            },
+            {
+                "text": "outta",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "here",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "B2",
+                "": ""
+            },
+            {
+                "text": "Ooh",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "yeah",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": ",",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "ooh",
+                "tags": "B2",
+                "": ""
+            },
+            {
+                "text": "yeah",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Nothing",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "really",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "matters",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Anyone",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "can",
+                "tags": "C1",
+                "": ""
+            },
+            {
+                "text": "see",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Nothing",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "really",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "matters",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "nothing",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "really",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "matters",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "to",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "me",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "Anyway",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "the",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "wind",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "blows",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "blows",
+                "tags": "",
+                "": ""
+            },
+            {
+                "text": "\\\\n",
+                "tags": "",
+                "": ""
+            }
+        ],
+        "tags": [
+            {
+                "tags": [
+                    "music",
+                    "en",
+                    "A1",
+                    "A2",
+                    "B1",
+                    "B2",
+                    "C1"
+                ]
+            }
+        ],
+        "video": [
+            {
+                "url": "tgbNymZ7vqY",
+                "title": "Bohemian Rhapsody",
+                "tags": [
+                    "A1",
+                    "A2",
+                    "B1",
+                    "B2",
+                    "C1"
+                ]
+            }
+        ],
+        "title": [
+            {
+                "title": "Bohemian Rhapsody"
+            }
+        ]
+    },
+    {
+        "split": [
+            {
+                "text": "There\u2019s",
+                "tags": "A2"
+            },
+            {
+                "text": "a",
+                "tags": "A1"
+            },
+            {
+                "text": "lady",
+                "tags": "B1"
+            },
+            {
+                "text": "who\u2019s",
+                "tags": "B2"
+            },
+            {
+                "text": "sure",
+                "tags": "A2"
+            },
+            {
+                "text": "\/\/n",
+                "tags": "A1"
+            },
+            {
+                "text": "All",
+                "tags": ""
+            },
+            {
+                "text": "that",
+                "tags": "A2"
+            },
+            {
+                "text": "glitters",
+                "tags": "A1"
+            },
+            {
+                "text": "is",
+                "tags": ""
+            },
+            {
+                "text": "gold",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": "B2"
+            },
+            {
+                "text": "she\u2019s",
+                "tags": ""
+            },
+            {
+                "text": "buying",
+                "tags": "A2"
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "stairway",
+                "tags": ""
+            },
+            {
+                "text": "to",
+                "tags": "A1"
+            },
+            {
+                "text": "heaven",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "When",
+                "tags": ""
+            },
+            {
+                "text": "she",
+                "tags": "C1"
+            },
+            {
+                "text": "gets",
+                "tags": ""
+            },
+            {
+                "text": "there",
+                "tags": [
+                    "B2",
+                    "C1"
+                ]
+            },
+            {
+                "text": "she",
+                "tags": "A2"
+            },
+            {
+                "text": "knows",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "If",
+                "tags": "A1"
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "stores",
+                "tags": "A2"
+            },
+            {
+                "text": "are",
+                "tags": ""
+            },
+            {
+                "text": "all",
+                "tags": ""
+            },
+            {
+                "text": "closed",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": "A2"
+            },
+            {
+                "text": "With",
+                "tags": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "word",
+                "tags": "B2"
+            },
+            {
+                "text": "she",
+                "tags": ""
+            },
+            {
+                "text": "can",
+                "tags": "A2"
+            },
+            {
+                "text": "get",
+                "tags": ""
+            },
+            {
+                "text": "what",
+                "tags": "A1"
+            },
+            {
+                "text": "she",
+                "tags": ""
+            },
+            {
+                "text": "came",
+                "tags": "A1"
+            },
+            {
+                "text": "for",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Oh",
+                "tags": ""
+            },
+            {
+                "text": "oh",
+                "tags": "A2"
+            },
+            {
+                "text": "oh",
+                "tags": ""
+            },
+            {
+                "text": "oh",
+                "tags": ""
+            },
+            {
+                "text": "and",
+                "tags": ""
+            },
+            {
+                "text": "she\u2019s",
+                "tags": "A1"
+            },
+            {
+                "text": "buying",
+                "tags": "B2"
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "stairway",
+                "tags": ""
+            },
+            {
+                "text": "to",
+                "tags": ""
+            },
+            {
+                "text": "heaven",
+                "tags": "A1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "There\u2019s",
+                "tags": "A2"
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "sign",
+                "tags": "C1"
+            },
+            {
+                "text": "on",
+                "tags": "B2"
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "wall",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "But",
+                "tags": "A1"
+            },
+            {
+                "text": "she",
+                "tags": ""
+            },
+            {
+                "text": "wants",
+                "tags": "A1"
+            },
+            {
+                "text": "to",
+                "tags": "A2"
+            },
+            {
+                "text": "be",
+                "tags": ""
+            },
+            {
+                "text": "sure",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "\u2019Cause",
+                "tags": ""
+            },
+            {
+                "text": "you",
+                "tags": "A1"
+            },
+            {
+                "text": "know",
+                "tags": ""
+            },
+            {
+                "text": "sometimes",
+                "tags": "C1"
+            },
+            {
+                "text": "words",
+                "tags": ""
+            },
+            {
+                "text": "have",
+                "tags": "A2"
+            },
+            {
+                "text": "two",
+                "tags": ""
+            },
+            {
+                "text": "meanings",
+                "tags": "B2"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "In",
+                "tags": ""
+            },
+            {
+                "text": "a",
+                "tags": "A1"
+            },
+            {
+                "text": "tree",
+                "tags": ""
+            },
+            {
+                "text": "by",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": "A2"
+            },
+            {
+                "text": "brook",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "There\u2019s",
+                "tags": ""
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "songbird",
+                "tags": "C1"
+            },
+            {
+                "text": "who",
+                "tags": "B2"
+            },
+            {
+                "text": "sings",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Sometimes",
+                "tags": "A2"
+            },
+            {
+                "text": "all",
+                "tags": ""
+            },
+            {
+                "text": "of",
+                "tags": ""
+            },
+            {
+                "text": "our",
+                "tags": ""
+            },
+            {
+                "text": "thoughts",
+                "tags": "A1"
+            },
+            {
+                "text": "are",
+                "tags": ""
+            },
+            {
+                "text": "misgiving",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Ooh",
+                "tags": "A2"
+            },
+            {
+                "text": "it",
+                "tags": ""
+            },
+            {
+                "text": "makes",
+                "tags": ""
+            },
+            {
+                "text": "me",
+                "tags": "B2"
+            },
+            {
+                "text": "wonder",
+                "tags": "C1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Ooh",
+                "tags": "A1"
+            },
+            {
+                "text": "it",
+                "tags": ""
+            },
+            {
+                "text": "makes",
+                "tags": ""
+            },
+            {
+                "text": "me",
+                "tags": ""
+            },
+            {
+                "text": "wonder",
+                "tags": "A2"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "There\u2019s",
+                "tags": ""
+            },
+            {
+                "text": "a",
+                "tags": "B2"
+            },
+            {
+                "text": "feeling",
+                "tags": ""
+            },
+            {
+                "text": "I",
+                "tags": ""
+            },
+            {
+                "text": "get",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "When",
+                "tags": ""
+            },
+            {
+                "text": "I",
+                "tags": "A1"
+            },
+            {
+                "text": "look",
+                "tags": "A2"
+            },
+            {
+                "text": "to",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "west",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": "B1"
+            },
+            {
+                "text": "my",
+                "tags": "B2"
+            },
+            {
+                "text": "spirit",
+                "tags": ""
+            },
+            {
+                "text": "is",
+                "tags": ""
+            },
+            {
+                "text": "crying",
+                "tags": "A2"
+            },
+            {
+                "text": "for",
+                "tags": ""
+            },
+            {
+                "text": "leaving",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "In",
+                "tags": "A1"
+            },
+            {
+                "text": "my",
+                "tags": ""
+            },
+            {
+                "text": "thoughts",
+                "tags": "C1"
+            },
+            {
+                "text": "I",
+                "tags": ""
+            },
+            {
+                "text": "have",
+                "tags": ""
+            },
+            {
+                "text": "seen",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Rings",
+                "tags": ""
+            },
+            {
+                "text": "of",
+                "tags": "B2"
+            },
+            {
+                "text": "smoke",
+                "tags": "A2"
+            },
+            {
+                "text": "through",
+                "tags": "C1"
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "trees",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": "A2"
+            },
+            {
+                "text": "voices",
+                "tags": "B1"
+            },
+            {
+                "text": "of",
+                "tags": ""
+            },
+            {
+                "text": "those",
+                "tags": ""
+            },
+            {
+                "text": "who",
+                "tags": "B1"
+            },
+            {
+                "text": "standing",
+                "tags": ""
+            },
+            {
+                "text": "looking",
+                "tags": "A1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Ooh",
+                "tags": "A1"
+            },
+            {
+                "text": "it",
+                "tags": ""
+            },
+            {
+                "text": "makes",
+                "tags": ""
+            },
+            {
+                "text": "me",
+                "tags": "A2"
+            },
+            {
+                "text": "wonder",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Ooh",
+                "tags": ""
+            },
+            {
+                "text": "it",
+                "tags": ""
+            },
+            {
+                "text": "really",
+                "tags": "A1"
+            },
+            {
+                "text": "makes",
+                "tags": ""
+            },
+            {
+                "text": "me",
+                "tags": ""
+            },
+            {
+                "text": "wonder",
+                "tags": "A1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": ""
+            },
+            {
+                "text": "it\u2019s",
+                "tags": ""
+            },
+            {
+                "text": "whispered",
+                "tags": ""
+            },
+            {
+                "text": "that",
+                "tags": ""
+            },
+            {
+                "text": "soon",
+                "tags": "A2"
+            },
+            {
+                "text": "If",
+                "tags": "A1"
+            },
+            {
+                "text": "we",
+                "tags": ""
+            },
+            {
+                "text": "all",
+                "tags": ""
+            },
+            {
+                "text": "call",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "tune",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Then",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "piper",
+                "tags": ""
+            },
+            {
+                "text": "will",
+                "tags": "A2"
+            },
+            {
+                "text": "lead",
+                "tags": ""
+            },
+            {
+                "text": "us",
+                "tags": "B1"
+            },
+            {
+                "text": "to",
+                "tags": ""
+            },
+            {
+                "text": "reason",
+                "tags": "A1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": ""
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "new",
+                "tags": ""
+            },
+            {
+                "text": "day",
+                "tags": "B1"
+            },
+            {
+                "text": "will",
+                "tags": ""
+            },
+            {
+                "text": "dawn",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "For",
+                "tags": ""
+            },
+            {
+                "text": "those",
+                "tags": ""
+            },
+            {
+                "text": "who",
+                "tags": "A2"
+            },
+            {
+                "text": "stand",
+                "tags": ""
+            },
+            {
+                "text": "long",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": "A1"
+            },
+            {
+                "text": "forests",
+                "tags": ""
+            },
+            {
+                "text": "will",
+                "tags": ""
+            },
+            {
+                "text": "echo",
+                "tags": ""
+            },
+            {
+                "text": "with",
+                "tags": "A2"
+            },
+            {
+                "text": "laughter",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "If",
+                "tags": "B1"
+            },
+            {
+                "text": "there\u2019s",
+                "tags": ""
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "bustle",
+                "tags": ""
+            },
+            {
+                "text": "in",
+                "tags": "A1"
+            },
+            {
+                "text": "your",
+                "tags": ""
+            },
+            {
+                "text": "hedgerow",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Don\u2019t",
+                "tags": "A2"
+            },
+            {
+                "text": "be",
+                "tags": ""
+            },
+            {
+                "text": "alarmed",
+                "tags": ""
+            },
+            {
+                "text": "now",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "It\u2019s",
+                "tags": "B1"
+            },
+            {
+                "text": "just",
+                "tags": ""
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "spring",
+                "tags": ""
+            },
+            {
+                "text": "clean",
+                "tags": ""
+            },
+            {
+                "text": "for",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": "A1"
+            },
+            {
+                "text": "May",
+                "tags": ""
+            },
+            {
+                "text": "queen",
+                "tags": "A2"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Yes",
+                "tags": ""
+            },
+            {
+                "text": "there",
+                "tags": ""
+            },
+            {
+                "text": "are",
+                "tags": ""
+            },
+            {
+                "text": "two",
+                "tags": "A1"
+            },
+            {
+                "text": "paths",
+                "tags": ""
+            },
+            {
+                "text": "you",
+                "tags": ""
+            },
+            {
+                "text": "can",
+                "tags": ""
+            },
+            {
+                "text": "go",
+                "tags": ""
+            },
+            {
+                "text": "by",
+                "tags": "A2"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "But",
+                "tags": ""
+            },
+            {
+                "text": "in",
+                "tags": "A1"
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "long",
+                "tags": ""
+            },
+            {
+                "text": "run",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "There\u2019s",
+                "tags": ""
+            },
+            {
+                "text": "still",
+                "tags": "A2"
+            },
+            {
+                "text": "time",
+                "tags": ""
+            },
+            {
+                "text": "to",
+                "tags": ""
+            },
+            {
+                "text": "change",
+                "tags": "A1"
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "road",
+                "tags": ""
+            },
+            {
+                "text": "you\u2019re",
+                "tags": ""
+            },
+            {
+                "text": "on",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": "A2"
+            },
+            {
+                "text": "And",
+                "tags": ""
+            },
+            {
+                "text": "it",
+                "tags": ""
+            },
+            {
+                "text": "makes",
+                "tags": ""
+            },
+            {
+                "text": "me",
+                "tags": "A1"
+            },
+            {
+                "text": "wonder",
+                "tags": "B1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Your",
+                "tags": ""
+            },
+            {
+                "text": "head",
+                "tags": "A2"
+            },
+            {
+                "text": "is",
+                "tags": ""
+            },
+            {
+                "text": "humming",
+                "tags": ""
+            },
+            {
+                "text": "and",
+                "tags": ""
+            },
+            {
+                "text": "it",
+                "tags": ""
+            },
+            {
+                "text": "won\u2019t",
+                "tags": ""
+            },
+            {
+                "text": "go",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "In",
+                "tags": ""
+            },
+            {
+                "text": "case",
+                "tags": ""
+            },
+            {
+                "text": "you",
+                "tags": "A2"
+            },
+            {
+                "text": "don\u2019t",
+                "tags": ""
+            },
+            {
+                "text": "know",
+                "tags": "A1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "The",
+                "tags": ""
+            },
+            {
+                "text": "piper\u2019s",
+                "tags": "B1"
+            },
+            {
+                "text": "calling",
+                "tags": ""
+            },
+            {
+                "text": "you",
+                "tags": ""
+            },
+            {
+                "text": "to",
+                "tags": ""
+            },
+            {
+                "text": "join",
+                "tags": ""
+            },
+            {
+                "text": "him",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Dear",
+                "tags": ""
+            },
+            {
+                "text": "lady",
+                "tags": ""
+            },
+            {
+                "text": "can",
+                "tags": "A2"
+            },
+            {
+                "text": "you",
+                "tags": ""
+            },
+            {
+                "text": "hear",
+                "tags": "B1"
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "wind",
+                "tags": ""
+            },
+            {
+                "text": "blow",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": ""
+            },
+            {
+                "text": "did",
+                "tags": "A1"
+            },
+            {
+                "text": "you",
+                "tags": ""
+            },
+            {
+                "text": "know",
+                "tags": "A2"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Your",
+                "tags": ""
+            },
+            {
+                "text": "stairway",
+                "tags": ""
+            },
+            {
+                "text": "lies",
+                "tags": ""
+            },
+            {
+                "text": "on",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": "A2"
+            },
+            {
+                "text": "whispering",
+                "tags": ""
+            },
+            {
+                "text": "wind",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": ""
+            },
+            {
+                "text": "as",
+                "tags": "A1"
+            },
+            {
+                "text": "we",
+                "tags": ""
+            },
+            {
+                "text": "wind",
+                "tags": ""
+            },
+            {
+                "text": "on",
+                "tags": ""
+            },
+            {
+                "text": "down",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": "A2"
+            },
+            {
+                "text": "road",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Our",
+                "tags": ""
+            },
+            {
+                "text": "shadows",
+                "tags": ""
+            },
+            {
+                "text": "taller",
+                "tags": "A1"
+            },
+            {
+                "text": "than",
+                "tags": ""
+            },
+            {
+                "text": "our",
+                "tags": ""
+            },
+            {
+                "text": "soul",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "There",
+                "tags": "B1"
+            },
+            {
+                "text": "walks",
+                "tags": ""
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "lady",
+                "tags": ""
+            },
+            {
+                "text": "we",
+                "tags": ""
+            },
+            {
+                "text": "all",
+                "tags": ""
+            },
+            {
+                "text": "know",
+                "tags": "A1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "Who",
+                "tags": ""
+            },
+            {
+                "text": "shines",
+                "tags": ""
+            },
+            {
+                "text": "white",
+                "tags": ""
+            },
+            {
+                "text": "light",
+                "tags": ""
+            },
+            {
+                "text": "and",
+                "tags": ""
+            },
+            {
+                "text": "wants",
+                "tags": "A2"
+            },
+            {
+                "text": "to",
+                "tags": ""
+            },
+            {
+                "text": "show",
+                "tags": "A1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "How",
+                "tags": ""
+            },
+            {
+                "text": "everything",
+                "tags": ""
+            },
+            {
+                "text": "still",
+                "tags": ""
+            },
+            {
+                "text": "turns",
+                "tags": ""
+            },
+            {
+                "text": "to",
+                "tags": ""
+            },
+            {
+                "text": "gold",
+                "tags": "B1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": ""
+            },
+            {
+                "text": "if",
+                "tags": ""
+            },
+            {
+                "text": "you",
+                "tags": "A1"
+            },
+            {
+                "text": "listen",
+                "tags": ""
+            },
+            {
+                "text": "very",
+                "tags": ""
+            },
+            {
+                "text": "hard",
+                "tags": ""
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "The",
+                "tags": "A1"
+            },
+            {
+                "text": "tune",
+                "tags": ""
+            },
+            {
+                "text": "will",
+                "tags": ""
+            },
+            {
+                "text": "come",
+                "tags": ""
+            },
+            {
+                "text": "to",
+                "tags": ""
+            },
+            {
+                "text": "you",
+                "tags": "A2"
+            },
+            {
+                "text": "at",
+                "tags": ""
+            },
+            {
+                "text": "last",
+                "tags": "B1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "When",
+                "tags": ""
+            },
+            {
+                "text": "all",
+                "tags": ""
+            },
+            {
+                "text": "are",
+                "tags": ""
+            },
+            {
+                "text": "one",
+                "tags": ""
+            },
+            {
+                "text": "and",
+                "tags": ""
+            },
+            {
+                "text": "one",
+                "tags": ""
+            },
+            {
+                "text": "is",
+                "tags": "A1"
+            },
+            {
+                "text": "all",
+                "tags": "B1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "To",
+                "tags": ""
+            },
+            {
+                "text": "be",
+                "tags": ""
+            },
+            {
+                "text": "a",
+                "tags": ""
+            },
+            {
+                "text": "rock",
+                "tags": "A2"
+            },
+            {
+                "text": "and",
+                "tags": ""
+            },
+            {
+                "text": "not",
+                "tags": "B1"
+            },
+            {
+                "text": "to",
+                "tags": ""
+            },
+            {
+                "text": "roll",
+                "tags": "A1"
+            },
+            {
+                "text": "\/\/n",
+                "tags": ""
+            },
+            {
+                "text": "And",
+                "tags": ""
+            },
+            {
+                "text": "she\u2019s",
+                "tags": ""
+            },
+            {
+                "text": "buying",
+                "tags": ""
+            },
+            {
+                "text": "the",
+                "tags": ""
+            },
+            {
+                "text": "stairway",
+                "tags": ""
+            },
+            {
+                "text": "to",
+                "tags": "B1"
+            },
+            {
+                "text": "heaven",
+                "tags": "A1"
+            }
+        ],
+        "tags": [
+            {
+                "tags": [
+                    "music",
+                    "en",
+                    "A1",
+                    "A2",
+                    "B1",
+                    "B2",
+                    "C1"
+                ]
+            }
+        ],
+        "video": [
+            {
+                "url": "RK-PAzu1Tmw",
+                "title": "el primer video",
+                "tags": [
+                    "A1",
+                    "A2",
+                    "B1",
+                    "B2",
+                    "C1"
+                ]
+            }
+        ],
+        "title": [
+            {
+                "title": "Tina Cousins - Pray"
+            }
+        ]
+    },
+    {
+        "split": [
+            {
+                "text": "Im",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "Winter",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "ist",
+                "tags": ""
+            },
+            {
+                "text": "es",
+                "tags": ""
+            },
+            {
+                "text": "immer",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "sehr",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "kalt",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Die",
+                "tags": ""
+            },
+            {
+                "text": "B\u00e4ume",
+                "tags": ""
+            },
+            {
+                "text": "verlieren",
+                "tags": ""
+            },
+            {
+                "text": "ihre",
+                "tags": ""
+            },
+            {
+                "text": "Bl\u00e4tter",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Kinder",
+                "tags": ""
+            },
+            {
+                "text": "spielen",
+                "tags": ""
+            },
+            {
+                "text": "mit",
+                "tags": ""
+            },
+            {
+                "text": "Schnee",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "bauen",
+                "tags": ""
+            },
+            {
+                "text": "Schneem\u00e4nner",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Im",
+                "tags": ""
+            },
+            {
+                "text": "Dezember",
+                "tags": ""
+            },
+            {
+                "text": "feiert",
+                "tags": ""
+            },
+            {
+                "text": "man",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "Adventszeit",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Das",
+                "tags": ""
+            },
+            {
+                "text": "ist",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "Vorbereitung",
+                "tags": ""
+            },
+            {
+                "text": "auf",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "Weihnachten",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Weihnachten",
+                "tags": ""
+            },
+            {
+                "text": "feiert",
+                "tags": ""
+            },
+            {
+                "text": "man",
+                "tags": ""
+            },
+            {
+                "text": "in",
+                "tags": ""
+            },
+            {
+                "text": "Deutschland",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "am",
+                "tags": ""
+            },
+            {
+                "text": "Abend",
+                "tags": ""
+            },
+            {
+                "text": "des",
+                "tags": ""
+            },
+            {
+                "text": "vierundzwanzigsten",
+                "tags": ""
+            },
+            {
+                "text": "Dezembers",
+                "tags": ""
+            },
+            {
+                "text": "mit",
+                "tags": ""
+            },
+            {
+                "text": "der",
+                "tags": ""
+            },
+            {
+                "text": "Familie",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "\\n",
+                "tags": ""
+            },
+            {
+                "text": "Im",
+                "tags": ""
+            },
+            {
+                "text": "Fr\u00fchling",
+                "tags": ""
+            },
+            {
+                "text": "kommt",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "Sonne",
+                "tags": ""
+            },
+            {
+                "text": "raus",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Die",
+                "tags": ""
+            },
+            {
+                "text": "Blumen",
+                "tags": ""
+            },
+            {
+                "text": "fangen",
+                "tags": ""
+            },
+            {
+                "text": "an",
+                "tags": ""
+            },
+            {
+                "text": "zu",
+                "tags": ""
+            },
+            {
+                "text": "bl\u00fchen",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "der",
+                "tags": ""
+            },
+            {
+                "text": "Schnee",
+                "tags": ""
+            },
+            {
+                "text": "geht",
+                "tags": ""
+            },
+            {
+                "text": "weg",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Im",
+                "tags": ""
+            },
+            {
+                "text": "M\u00e4rz",
+                "tags": ""
+            },
+            {
+                "text": "kommt",
+                "tags": ""
+            },
+            {
+                "text": "der",
+                "tags": ""
+            },
+            {
+                "text": "Osterhase",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "versteckt",
+                "tags": ""
+            },
+            {
+                "text": "im",
+                "tags": ""
+            },
+            {
+                "text": "Garten",
+                "tags": ""
+            },
+            {
+                "text": "Eier",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "Schokolade",
+                "tags": ""
+            },
+            {
+                "text": "f\u00fcr",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "Kinder",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "\\n",
+                "tags": ""
+            },
+            {
+                "text": "Der",
+                "tags": ""
+            },
+            {
+                "text": "Sommer",
+                "tags": ""
+            },
+            {
+                "text": "ist",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "hei\u00dfeste",
+                "tags": ""
+            },
+            {
+                "text": "Jahreszeit",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Viele",
+                "tags": ""
+            },
+            {
+                "text": "Menschen",
+                "tags": ""
+            },
+            {
+                "text": "gehen",
+                "tags": ""
+            },
+            {
+                "text": "an",
+                "tags": ""
+            },
+            {
+                "text": "den",
+                "tags": ""
+            },
+            {
+                "text": "Strand",
+                "tags": ""
+            },
+            {
+                "text": "oder",
+                "tags": ""
+            },
+            {
+                "text": "an",
+                "tags": ""
+            },
+            {
+                "text": "einen",
+                "tags": ""
+            },
+            {
+                "text": "See",
+                "tags": ""
+            },
+            {
+                "text": ",",
+                "tags": ""
+            },
+            {
+                "text": "um",
+                "tags": ""
+            },
+            {
+                "text": "sich",
+                "tags": ""
+            },
+            {
+                "text": "zu",
+                "tags": ""
+            },
+            {
+                "text": "baden",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Es",
+                "tags": ""
+            },
+            {
+                "text": "wird",
+                "tags": ""
+            },
+            {
+                "text": "auch",
+                "tags": ""
+            },
+            {
+                "text": "viel",
+                "tags": ""
+            },
+            {
+                "text": "Eis",
+                "tags": ""
+            },
+            {
+                "text": "gegessen",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "\\n",
+                "tags": ""
+            },
+            {
+                "text": "Im",
+                "tags": ""
+            },
+            {
+                "text": "Herbst",
+                "tags": ""
+            },
+            {
+                "text": "wird",
+                "tags": ""
+            },
+            {
+                "text": "es",
+                "tags": ""
+            },
+            {
+                "text": "wieder",
+                "tags": ""
+            },
+            {
+                "text": "k\u00e4lter",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "es",
+                "tags": ""
+            },
+            {
+                "text": "windet",
+                "tags": ""
+            },
+            {
+                "text": "viel",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Die",
+                "tags": ""
+            },
+            {
+                "text": "Bl\u00e4tter",
+                "tags": ""
+            },
+            {
+                "text": "an",
+                "tags": ""
+            },
+            {
+                "text": "den",
+                "tags": ""
+            },
+            {
+                "text": "B\u00e4umen",
+                "tags": ""
+            },
+            {
+                "text": "sind",
+                "tags": ""
+            },
+            {
+                "text": "rot",
+                "tags": ""
+            },
+            {
+                "text": ",",
+                "tags": ""
+            },
+            {
+                "text": "braun",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "gelb",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Kinder",
+                "tags": ""
+            },
+            {
+                "text": "lassen",
+                "tags": ""
+            },
+            {
+                "text": "Drachen",
+                "tags": ""
+            },
+            {
+                "text": "steigen",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "suchen",
+                "tags": ""
+            },
+            {
+                "text": "Igel",
+                "tags": ""
+            },
+            {
+                "text": "in",
+                "tags": ""
+            },
+            {
+                "text": "den",
+                "tags": ""
+            },
+            {
+                "text": "Parks",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            }
+        ],
+        "tags": [
+            {
+                "tags": [
+                    "idiomas",
+                    "aleman"
+                ]
+            }
+        ],
+        "questions_true_false": [
+            {
+                "question": "Im Winter ist es sehr hei\u00df.",
+                "solution": "false"
+            },
+            {
+                "question": "Im Dezember bereitet man sich auf Weihnachten vor.",
+                "solution": "true"
+            },
+            {
+                "question": "Der Sommer ist eine kalte Jahreszeit.",
+                "solution": "false"
+            },
+            {
+                "question": "Im Sommer gehen wenig Menschen an den Strand.",
+                "solution": "false"
+            },
+            {
+                "question": "Im Herbst windet es viel.",
+                "solution": "true"
+            },
+            {
+                "question": "Im Herbst suchen Kinder nach Igel in den Parks.",
+                "solution": "true"
+            }
+        ],
+        "audio": [
+            {
+                "url": "url.audio.com",
+                "title": "el primer audio",
+                "tags": [
+                    "B",
+                    "C",
+                    "D"
+                ]
+            }
+        ],
+        "video": [
+            {
+                "url": "url.video.com",
+                "title": "el primer video",
+                "tags": [
+                    "B",
+                    "C",
+                    "D"
+                ]
+            }
+        ],
+        "title": [
+            {
+                "title": "Die vier Jahreszeiten"
+            }
+        ]
+    },
+    {
+        "split": [
+            {
+                "text": "Im",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "Winter",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "ist",
+                "tags": ""
+            },
+            {
+                "text": "es",
+                "tags": ""
+            },
+            {
+                "text": "immer",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "sehr",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "kalt",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Die",
+                "tags": ""
+            },
+            {
+                "text": "B\u00e4ume",
+                "tags": ""
+            },
+            {
+                "text": "verlieren",
+                "tags": ""
+            },
+            {
+                "text": "ihre",
+                "tags": ""
+            },
+            {
+                "text": "Bl\u00e4tter",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Kinder",
+                "tags": ""
+            },
+            {
+                "text": "spielen",
+                "tags": ""
+            },
+            {
+                "text": "mit",
+                "tags": ""
+            },
+            {
+                "text": "Schnee",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "bauen",
+                "tags": ""
+            },
+            {
+                "text": "Schneem\u00e4nner",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Im",
+                "tags": ""
+            },
+            {
+                "text": "Dezember",
+                "tags": ""
+            },
+            {
+                "text": "feiert",
+                "tags": ""
+            },
+            {
+                "text": "man",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "Adventszeit",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Das",
+                "tags": ""
+            },
+            {
+                "text": "ist",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "Vorbereitung",
+                "tags": ""
+            },
+            {
+                "text": "auf",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "Weihnachten",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Weihnachten",
+                "tags": ""
+            },
+            {
+                "text": "feiert",
+                "tags": ""
+            },
+            {
+                "text": "man",
+                "tags": ""
+            },
+            {
+                "text": "in",
+                "tags": ""
+            },
+            {
+                "text": "Deutschland",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "text": "am",
+                "tags": ""
+            },
+            {
+                "text": "Abend",
+                "tags": ""
+            },
+            {
+                "text": "des",
+                "tags": ""
+            },
+            {
+                "text": "vierundzwanzigsten",
+                "tags": ""
+            },
+            {
+                "text": "Dezembers",
+                "tags": ""
+            },
+            {
+                "text": "mit",
+                "tags": ""
+            },
+            {
+                "text": "der",
+                "tags": ""
+            },
+            {
+                "text": "Familie",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "\\n",
+                "tags": ""
+            },
+            {
+                "text": "Im",
+                "tags": ""
+            },
+            {
+                "text": "Fr\u00fchling",
+                "tags": ""
+            },
+            {
+                "text": "kommt",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "Sonne",
+                "tags": ""
+            },
+            {
+                "text": "raus",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Die",
+                "tags": ""
+            },
+            {
+                "text": "Blumen",
+                "tags": ""
+            },
+            {
+                "text": "fangen",
+                "tags": ""
+            },
+            {
+                "text": "an",
+                "tags": ""
+            },
+            {
+                "text": "zu",
+                "tags": ""
+            },
+            {
+                "text": "bl\u00fchen",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "der",
+                "tags": ""
+            },
+            {
+                "text": "Schnee",
+                "tags": ""
+            },
+            {
+                "text": "geht",
+                "tags": ""
+            },
+            {
+                "text": "weg",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Im",
+                "tags": ""
+            },
+            {
+                "text": "M\u00e4rz",
+                "tags": ""
+            },
+            {
+                "text": "kommt",
+                "tags": ""
+            },
+            {
+                "text": "der",
+                "tags": ""
+            },
+            {
+                "text": "Osterhase",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "versteckt",
+                "tags": ""
+            },
+            {
+                "text": "im",
+                "tags": ""
+            },
+            {
+                "text": "Garten",
+                "tags": ""
+            },
+            {
+                "text": "Eier",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "Schokolade",
+                "tags": ""
+            },
+            {
+                "text": "f\u00fcr",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "Kinder",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "\\n",
+                "tags": ""
+            },
+            {
+                "text": "Der",
+                "tags": ""
+            },
+            {
+                "text": "Sommer",
+                "tags": ""
+            },
+            {
+                "text": "ist",
+                "tags": ""
+            },
+            {
+                "text": "die",
+                "tags": ""
+            },
+            {
+                "text": "hei\u00dfeste",
+                "tags": ""
+            },
+            {
+                "text": "Jahreszeit",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Viele",
+                "tags": ""
+            },
+            {
+                "text": "Menschen",
+                "tags": ""
+            },
+            {
+                "text": "gehen",
+                "tags": ""
+            },
+            {
+                "text": "an",
+                "tags": ""
+            },
+            {
+                "text": "den",
+                "tags": ""
+            },
+            {
+                "text": "Strand",
+                "tags": ""
+            },
+            {
+                "text": "oder",
+                "tags": ""
+            },
+            {
+                "text": "an",
+                "tags": ""
+            },
+            {
+                "text": "einen",
+                "tags": ""
+            },
+            {
+                "text": "See",
+                "tags": ""
+            },
+            {
+                "text": ",",
+                "tags": ""
+            },
+            {
+                "text": "um",
+                "tags": ""
+            },
+            {
+                "text": "sich",
+                "tags": ""
+            },
+            {
+                "text": "zu",
+                "tags": ""
+            },
+            {
+                "text": "baden",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Es",
+                "tags": ""
+            },
+            {
+                "text": "wird",
+                "tags": ""
+            },
+            {
+                "text": "auch",
+                "tags": ""
+            },
+            {
+                "text": "viel",
+                "tags": ""
+            },
+            {
+                "text": "Eis",
+                "tags": ""
+            },
+            {
+                "text": "gegessen",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "\\n",
+                "tags": ""
+            },
+            {
+                "text": "Im",
+                "tags": ""
+            },
+            {
+                "text": "Herbst",
+                "tags": ""
+            },
+            {
+                "text": "wird",
+                "tags": ""
+            },
+            {
+                "text": "es",
+                "tags": ""
+            },
+            {
+                "text": "wieder",
+                "tags": ""
+            },
+            {
+                "text": "k\u00e4lter",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "es",
+                "tags": ""
+            },
+            {
+                "text": "windet",
+                "tags": ""
+            },
+            {
+                "text": "viel",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Die",
+                "tags": ""
+            },
+            {
+                "text": "Bl\u00e4tter",
+                "tags": ""
+            },
+            {
+                "text": "an",
+                "tags": ""
+            },
+            {
+                "text": "den",
+                "tags": ""
+            },
+            {
+                "text": "B\u00e4umen",
+                "tags": ""
+            },
+            {
+                "text": "sind",
+                "tags": ""
+            },
+            {
+                "text": "rot",
+                "tags": ""
+            },
+            {
+                "text": ",",
+                "tags": ""
+            },
+            {
+                "text": "braun",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "gelb",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            },
+            {
+                "text": "Kinder",
+                "tags": ""
+            },
+            {
+                "text": "lassen",
+                "tags": ""
+            },
+            {
+                "text": "Drachen",
+                "tags": ""
+            },
+            {
+                "text": "steigen",
+                "tags": ""
+            },
+            {
+                "text": "und",
+                "tags": ""
+            },
+            {
+                "text": "suchen",
+                "tags": ""
+            },
+            {
+                "text": "Igel",
+                "tags": ""
+            },
+            {
+                "text": "in",
+                "tags": ""
+            },
+            {
+                "text": "den",
+                "tags": ""
+            },
+            {
+                "text": "Parks",
+                "tags": ""
+            },
+            {
+                "text": ".",
+                "tags": ""
+            }
+        ],
+        "tags": [
+            {
+                "tags": [
+                    "idiomas",
+                    "aleman"
+                ]
+            }
+        ],
+        "questions_true_false": [
+            {
+                "question": "Im Winter ist es sehr hei\u00df.",
+                "solution": "false"
+            },
+            {
+                "question": "Im Dezember bereitet man sich auf Weihnachten vor.",
+                "solution": "true"
+            },
+            {
+                "question": "Der Sommer ist eine kalte Jahreszeit.",
+                "solution": "false"
+            },
+            {
+                "question": "Im Sommer gehen wenig Menschen an den Strand.",
+                "solution": "false"
+            },
+            {
+                "question": "Im Herbst windet es viel.",
+                "solution": "true"
+            },
+            {
+                "question": "Im Herbst suchen Kinder nach Igel in den Parks.",
+                "solution": "true"
+            }
+        ],
+        "audio": [
+            {
+                "url": "url.audio.com",
+                "title": "el primer audio",
+                "tags": [
+                    "B",
+                    "C",
+                    "D"
+                ]
+            }
+        ],
+        "video": [
+            {
+                "url": "url.video.com",
+                "title": "el primer video",
+                "tags": [
+                    "B",
+                    "C",
+                    "D"
+                ]
+            }
+        ],
+        "title": [
+            {
+                "title": "Die vier Jahreszeiten"
+            }
+        ]
+    }
+]

@@ -64,3 +64,4 @@ function addSpaceToTextWTag(word, idFrame, tag, index, solution) {
     }
   }
 }
+

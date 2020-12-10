@@ -5,23 +5,27 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-
   <link rel="stylesheet" href="./css/style.css" />
-
   <script type="module" src="./js/main.js"></script>
-
+  <script type="module" src="./js/Infrastructure/iosfix.js"></script>
   <title>poc[Beta]</title>
 </head>
 
 <body>
   <div id="contentfield" class="container buttonstyle">
+  <div id="inicio">
     <button class="btn btn-primary btn-lg btn-block loadBuffer">cargar buffer del api</button>
+    <button class="btn btn-primary btn-lg btn-block fillthegaps">fill the gaps</button>
+    <button class="btn btn-primary btn-lg btn-block musicgame">Music Game</button>
     <button class="btn btn-primary btn-lg btn-block btnMenu" data="" >Menu</button>
-
-    <div id="contenido"></div>
-
-    <div id="app" class="container"></div>
+    <button class="btn btn-primary btn-lg btn-block btnTest" data="" >Test MusicGame</button>
   </div>
+  <div id="contenido"></div>
+  <div id="media" class="container"></div>
+  <div id="app" class="container"></div>
 </body>
 
 </html>
+
+<script>document.getElementById("app").innerHTML = "hola \n " + navigator.userAgent;
+</script>

@@ -8,7 +8,11 @@ export class SearchKey {
       return this.#search();
     }
     #search() {
-      return Array.from(Object.keys(this.#data));
+      try {
+        return Array.from(Object.values(this.#data));
+      } catch (error) {
+        console.error("error");
+      }
     }
     #transform() {
       this.#route.forEach((element) => {

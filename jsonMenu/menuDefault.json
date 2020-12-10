@@ -1,0 +1,47 @@
+[
+  {
+    "text":"jQuery",
+    "children":[
+      {
+        "text":"jQuery plugin",
+        "click":"https://www.jqueryscript.net"
+      },
+      {
+        "text":"Most Popular Plugins",
+        "click":"https://www.jqueryscript.net/popular/"
+      },
+      {
+        "text":"Recommended Plugins",
+        "click":"https://www.jqueryscript.net/recommended/"
+      }
+    ]
+  },
+  {
+    "text":"CSSSCRIPT",
+    "children":[
+      {
+        "text":"CSS",
+        "children":[
+          {
+            "text":"CSS"
+          },
+          {
+            "text":"CSS3"
+          }
+        ]
+      },
+      {
+        "text":"HTML5"
+      },
+      {
+        "text":"JavaScript",
+        "children":[
+          {
+            "text":"Vanilla JavaScript",
+            "click":"https://pl.wikipedia.org/wiki/AJAX"
+          }
+        ]
+      }
+    ]
+  }
+]

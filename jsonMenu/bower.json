@@ -1,0 +1,24 @@
+{
+  "name": "MusicGame",
+  "homepage": "www.phiteca.es",
+  "authors": [
+    "Phiteca"
+  ],
+  "description": "Music Game",
+  "main": "index.html",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "menu"
+  ],
+  "license": "about",
+  "ignore": [
+    "Idiomas",
+    "Asignaturas",
+    "Planes de subcripción",
+    "Informacin"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

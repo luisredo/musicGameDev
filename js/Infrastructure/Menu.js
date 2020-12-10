@@ -1,74 +1,105 @@
+import { Ruta } from "./Ruta.js";
 import { SearchKey } from "./SearchKey.js";
-
 export class Menu {
-  #ruta = [];
-  #opt = [];
-  #cruta = 0;
+    #ruta = [];
+    #opt = [];
+    #dir = [];
 
-  constructor(ruta) {
-    this.#ruta = ruta;
-  }
-
-  onClickMenu(key, menu) {
-    if (key == "") {
-      var option = new SearchKey(menu, this.#ruta.get());
-      this.#opt.push(option);
-      this.#print();
-      this.writeOnScreen(option, "cat-" + this.#cruta);
-    } else {
-      this.#print();
-      this.writeOnScreen(this.nextValueOf(key, menu), "cat-" + this.#cruta);
+    constructor(ruta, dir) {
+        this.#ruta = ruta;
+        this.#dir = dir;
     }
-  }
 
-  #print() {
-    var app = document.querySelector("#app");
+    onClickMenu(key, menu, dir) {
+        if (document.getElementById("inicio") != undefined) document.getElementById("inicio").remove();
+        try {
+            if (key == "") {
+                var option = new SearchKey(menu); //this.#ruta.get());
+                this.writeOnScreen(option, "app");
+            } else {
+                this.writeOnScreen(this.nextValueOf(key, menu), "app");
+            }
+        } catch (err) {
+            let url = this.#dir.split(",");
+            url.shift();
+            this.#ruta = url;
+            alert("err lista  " + url);
+            document.getElementById("app").innerHTML = "";
 
-    var div = document.createElement("div");
-    div.setAttribute("id", "cat-" + this.#cruta);
-    div.setAttribute("name", this.#cruta);
+            let dir = [];
+            for (var i = 0; i < url.length; i++) {
+                var option = new SearchKey(menu, dir);
+                this.#dir = dir;
+                this.writeOnScreen(option, "app");
+                dir.push(url[i]);
+            }
+            console.log(err.message);
+        }
 
-    app.appendChild(div);
-  }
-
-  nextValueOf(key, menu) {
-    this.#ruta.add(key);
-    var option = new SearchKey(menu, this.#ruta.get());
-
-    if (option == "") {
-      var app = document.querySelector("#app");
-
-      var button = document.createElement("button");
-      button.setAttribute("class", "btn btn-primary btn-lg launchTest");
-      button.setAttribute("id", "chisclander");
-
-      var text = document.createTextNode("lanzar prueba");
-
-      button.appendChild(text);
-
-      app.appendChild(button);
-      return option;
-    } else {
-      return option;
     }
-  }
 
-  writeOnScreen(valor, id) {
-    var element = document.getElementById(id);
-    var div = document.createElement("div");
-    for (let i = 0; i < valor.length; i++) {
-      var button = document.createElement("button");
-      button.setAttribute("id", "boton" + this.#cruta + "_" + i);
-      button.setAttribute("class", "btn btn-primary btn-lg btnMenu");
-      button.setAttribute("data", valor[i]);
+    #print() {
+        var app = document.querySelector("#app");
+        var div = document.createElement("div");
+        div.setAttribute("id", "");
+        div.setAttribute("name", "");
 
-      var text = document.createTextNode(valor[i]);
-
-      button.appendChild(text);
-
-      div.appendChild(button);
+        app.appendChild(div);
     }
-    element.appendChild(div);
-    this.#cruta++;
-  }
+
+    nextValueOf(key, menu) {
+        this.#ruta.add(key);
+        var temproute = this.#ruta.get();
+        let unicos = Array.from(new Set(temproute));
+        temproute = unicos;
+        console.log("getruta -> " + temproute + " <- ultimo elemento -> " + temproute[temproute.length - 1]);
+        var option = new SearchKey(menu, temproute);
+
+        if (option == "") {
+            var app = document.querySelector("#app");
+
+            var button = document.createElement("button");
+            button.setAttribute("class", "btn btn-primary btn-lg launchTest");
+            button.setAttribute("id", key);
+
+            var text = document.createTextNode("lanzar prueba");
+
+            button.appendChild(text);
+            app.appendChild(button);
+            return option;
+        } else {
+            return option;
+        }
+    }
+
+
+
+    writeOnScreen(valor, id) {
+        var element = document.getElementById(id);
+        var div = document.createElement("div");
+        div.setAttribute("id", valor);
+        div.setAttribute("name", "contador ruta");
+
+        for (let i = 0; i < valor.length; i++) {
+
+            var button = document.createElement("button");
+            button.setAttribute("id", "boton" + "contador ruta" + "_" + i);
+            button.setAttribute("class", "btn btn-primary btn-lg btnMenu");
+            button.setAttribute("data", valor[i]);
+            console.log("dir ->" + this.#dir);
+            if (this.#dir == null) { this.#dir = ""; }
+            if (this.#dir.includes(valor[i])) {
+                button.setAttribute("dir", this.#dir);
+            } else {
+                button.setAttribute("dir", this.#dir + "," + valor[i]);
+            }
+
+            var text = document.createTextNode(valor[i]);
+
+            button.appendChild(text);
+
+            div.appendChild(button);
+        }
+        element.appendChild(div);
+    }
 }

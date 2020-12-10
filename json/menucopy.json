@@ -1,0 +1,236 @@
+{
+    "Idiomas": {
+      "English": {
+        "A1": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        },
+        "A2": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        },
+        "B1": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        },
+        "B2": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        }
+      },
+      "Français": {
+        "A1": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        },
+        "A2": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        },
+        "B1": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        },
+        "B2": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        }
+      },
+      "Italiano": {
+        "A1": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        },
+        "A2": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        },
+        "B1": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        },
+        "B2": {
+          "FTG": {
+            "List": {},
+            "Reading": {}
+          },
+          "Check": {
+            "List": {},
+            "Reading": {}
+          },
+          "Truefalse": {
+            "List": {},
+            "Reading": {}
+          },
+          "MusicGame": {
+
+          }
+        }
+      }
+    },
+    "Escolar": {
+      "1ESO": {
+        "LENGUA": {},
+        "INGLES": {},
+        "HISTORIA": {}
+      },
+      "2ESO": {
+        "LENGUA": {},
+        "INGLES": {},
+        "HISTORIA": {}
+      },
+      "3ESO": {
+        "LENGUA": {},
+        "INGLES": {},
+        "HISTORIA": {}
+      },
+      "4ESO": {
+        "LENGUA": {},
+        "INGLES": {},
+        "HISTORIA": {}
+      }
+    }
+  }

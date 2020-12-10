@@ -1,0 +1,19 @@
+[
+  {
+    "text":"Music Game",
+    "children":[
+      {
+        "text":"Español",
+        "click":"musicgame.html?es"
+      },
+      {
+        "text":"Ingles",
+        "click":"musicgame.html?en"
+      },
+      {
+        "text":"Italiano",
+        "click":"musicgame.html?it"
+      }
+    ]
+  }
+]
