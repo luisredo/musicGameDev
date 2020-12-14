@@ -43,7 +43,6 @@ export class Listeners {
   }
 
   alIniciar() {
-    window.onload = function(){
       var getstr = window.location.search.substr(1);
       if(getstr!=""){
         getstr = getstr.split ("&");
@@ -55,7 +54,7 @@ export class Listeners {
       } else {
         //document.getElementById("dev_menu").style.visibility = "hidden";
       }
-    } 
+    
   }
 
   loadBufferListen() {

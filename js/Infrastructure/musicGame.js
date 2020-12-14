@@ -2,6 +2,7 @@ import { Objeto } from "./ObjetosEjercicio.js";
 import { API } from "./API.js";
 import { SearchKey } from "./SearchKey.js";
 import { SearchValues } from "./SearchValues.js";
+import {Session} from "../Shared/Infrastructure/Session.js"
 const API_URL = "http://api.gameoftesla.com/v1/text/";
 //const API_URL = "/json/backup.json";
 // const API_URL = "http://devla.gameoftesla.com/api/json/backup01.json";
@@ -20,9 +21,9 @@ export async function musicGameLoad() {
     console.log(texts);
     buffer = texts;
 
-    var lenguaje = sessionStorage.getItem('lenguaje');
-    var dificultad = sessionStorage.getItem('nivelmusic');
-    var tipo = sessionStorage.getItem('tipo');
+    var lenguaje = Session.get('lenguaje');
+    var dificultad = Session.get('nivelmusic');
+    var tipo = Session.get('tipo');
 
     randomTextApi = mapearElementosEnArrayRandom(lenguaje,dificultad,tipo,buffer);
     unShowTagsMusicGame(randomTextApi);
@@ -424,3 +425,4 @@ function obtenerValoresHuecos(){
 function fixLowercase(campo1,campo2){
     return campo1.toLowerCase()==campo2.toLowerCase();
 }
+
