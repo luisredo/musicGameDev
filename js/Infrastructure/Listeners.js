@@ -1,11 +1,13 @@
 import { cargarBuffer, showIn, fillthegaps} from "./getData.js";
-import { musicgame, musicGameLoad,setMusicParams ,typetext } from "./musicGame.js";
+import { musicgame, musicGameLoad,setMusicParams } from "./musicGame.js";
 import { LoadContent } from "./LoadContent.js";
 import { Menu } from "./Menu.js";
 import * as utils from "./utils.js";
 import { LaunchTest } from "./LaunchTest.js";
 import { Ruta } from "./Ruta.js";
-//import { iOSversion } from "./Infrastructure/iosfix.js";
+import { Session } from "../Shared/Infrastructure/Session.js"
+import { Urlget, setSession } from "../Shared/Infrastructure/Urlget.js"
+
 export class Listeners {
   constructor() {
     var ruta = new Ruta();
@@ -21,7 +23,7 @@ export class Listeners {
   }
 
   btnMenuListen(ruta) {
-    contentfield.addEventListener(sessionStorage.getItem('isIOS'), async function (event) {
+    contentfield.addEventListener("click", async function (event) {
       //iOSversion();
       var element = event.path[0];
       if (utils.thisElementHasClass("btnMenu", element)) {
@@ -34,7 +36,7 @@ export class Listeners {
   }
 
   launchTestListen() {
-    contentfield.addEventListener(sessionStorage.getItem('isIOS'), function (event) {
+    contentfield.addEventListener("click", function (event) {
       var element = event.path[0];
       if (utils.thisElementHasClass("launchTest", element)) {
         new LaunchTest();
@@ -43,24 +45,21 @@ export class Listeners {
   }
 
   alIniciar() {
-      var getstr = window.location.search.substr(1);
-      if(getstr!=""){
-        getstr = getstr.split ("&");
-        console.log(getstr);
-        sessionStorage.setItem('lenguaje', getstr[0]);
-        sessionStorage.setItem('nivelmusic', getstr[1]);
-        sessionStorage.setItem('tipo', getstr[2]);
-        musicGameLoad();
-      } else {
-        //document.getElementById("dev_menu").style.visibility = "hidden";
+    // http://127.0.0.1:5500/musicGameDev/musicgame.html?lenguaje=es&nivelmusic=A1&tipo=music
+      var url = window.location.search.substr(1);
+      var getstr = new Urlget(url);
+
+      for(let i=0;i< getstr.length;i++){
+        let s = setSession(getstr[i]);
+        sessionStorage.setItem(s[0], s[1]);
       }
-    
+      if(url.length>0)musicGameLoad();  
   }
 
   loadBufferListen() {
     document
       .querySelector(".loadBuffer")
-      .addEventListener(sessionStorage.getItem('isIOS'), function () {
+      .addEventListener("click", function () {
         cargarBuffer();
       },false);
   }
@@ -68,7 +67,7 @@ export class Listeners {
   loadftgListen() {
     document
       .querySelector(".fillthegaps")
-      .addEventListener(sessionStorage.getItem('isIOS'), function () {
+      .addEventListener("click", function () {
         fillthegaps();
       });   
   }
@@ -76,22 +75,23 @@ export class Listeners {
   loadMusicListen() {
     document
       .querySelector(".musicgame")
-      .addEventListener(sessionStorage.getItem('isIOS'), function () {
-        musicgame();
+      .addEventListener("click", function () {
+        //musicgame();
+        setMusicParams();
       },false);   
   }
 
   loadTypeText() {
     document
       .querySelector(".btnTest")
-      .addEventListener(sessionStorage.getItem('isIOS'), function () {
+      .addEventListener("click", function () {
         setMusicParams();
         //typetext();
       });   
   }
 
   showInListen() {
-    contentfield.addEventListener(sessionStorage.getItem('isIOS'), function (event) {
+    contentfield.addEventListener("click", function (event) {
       var element = event.path[0];
       if (utils.thisElementHasClass("showin", element)) {
         showIn(element.getAttribute("showin"));

@@ -2,17 +2,17 @@ import { Texto } from "./ObjetosEjercicio.js";
 import { API } from "./API.js";
 import { SearchKey } from "./SearchKey.js";
 import { SearchValues } from "./SearchValues.js";
-import { Session } from "../Shared/Infrastructure/Session.js";
+import {Session} from "../Shared/Infrastructure/Session.js"
 const API_URL = "http://api.gameoftesla.com/v1/text/";
 //const API_URL = "/json/backup.json";
 // const API_URL = "http://devla.gameoftesla.com/api/json/backup01.json";
 
-let frase = new Texto();
+let frase = newTexto();
 let buffer = [];
 let randomTextApi = [];
 
 export async function musicGameLoad() {
-    frase = new Texto();
+    frase = newTexto();
     document.getElementById("inicio").style.display = "none";
     var texts = await new API().get(API_URL);
     elementClean("#app");
@@ -20,23 +20,21 @@ export async function musicGameLoad() {
     var numberOfTexts = texts.length;
     console.log(texts);
     buffer = texts;
+
     var lenguaje = Session.get('lenguaje');
-    var dificultad = Session.get('nivel');
+    var dificultad = Session.get('nivelmusic');
     var tipo = Session.get('tipo');
-    
 
     randomTextApi = mapearElementosEnArrayRandom(lenguaje,dificultad,tipo,buffer);
     unShowTagsMusicGame(randomTextApi);
 }
 
 export async function setMusicParams(){
-    frase = new Texto();
+    frase = newTexto();
     var texts = await new API().get(API_URL);
     buffer = texts;
-    mapearConjuntos(texts);                                
-    elementClean("#inicio");
-    elementClean("#contenido");
-    //document.getElementById("inicio").innerHTML = "";
+    mapearConjuntos(texts);                                 //  Recorrer json content pre value
+    document.getElementById("inicio").innerHTML = "";
     document.getElementById("contenido").innerHTML = 
     '<div id="parametros"><span>Confirmar parametros</span><div><br>';
     document.getElementById("contenido").innerHTML += 
@@ -75,7 +73,7 @@ export async function setMusicParams(){
 }
 
 export async function typetext() {
-    frase = new Texto();
+    frase = newTexto();
     document.getElementById("inicio").style.display = "none";
     var texts = await new API().get(API_URL);
     elementClean("#app");
@@ -90,7 +88,7 @@ export async function typetext() {
 }
 
 export async function musicgame() {
-    frase = new Texto();
+    frase = newTexto();
     document.getElementById("inicio").style.display = "none";
     var texts = await new API().get(API_URL);
     elementClean("#app");
@@ -98,7 +96,11 @@ export async function musicgame() {
     var numberOfTexts = texts.length;
     console.log(texts);
     buffer = texts;
+
+    // randomTextApi = mapearElementosEnArrayRandom("it","music",buffer);
     randomTextApi = mapearElementosEnArrayRandom(lenguaje,dificultad,tipo,buffer);
+    //mapearElementosEnArray(buffer);
+    //alert(randomTextApi);
     unShowTagsMusicGame(randomTextApi);
 }
 
@@ -111,6 +113,7 @@ function mapearElementosEnArray(arrbuffer){
     for(var p = 0; p < arrbuffer.length; p++){
        numElements.push(getKeyTolist(arrbuffer,[p,'split','video']));
     }
+    //alert("elementos contenidos en -> " + numElements);
 }
 
 function mapearElementosEnArrayRandom(idioma,nivel,tag,arrbuffer){
@@ -144,10 +147,11 @@ function mapearConjuntos(arrbuffer){
         }
        
     }
+    alert("Longitud de tagsmap -> " + tagsMap.length);
     tagsMap = eliminarElementosRepetidos(tagsMap);
     langsMap = cleanArray(eliminarElementosRepetidos(langsMap));
 
-    console.log("Arrays scaneados sin procesar. \n tags " + tagsMap + "\n lang " + langsMap);
+    alert("Arrays scaneados sin procesar. \n tags " + tagsMap + "\n lang " + langsMap);
     sessionStorage.setItem('arrayTags', eliminarElementosRepetidos(tagsMap));
     sessionStorage.setItem('arrayLangs', langsMap);
     console.log("tagsmap : " + tagsMap +
@@ -196,7 +200,7 @@ function devDataOnContenido(num){
 
 function insertarClip(video){
     insertarVideo(video);
-    devMostrarClaseTexto();
+    devMostrarClaseObjeto();
     corregirListen();
 }
 
@@ -211,7 +215,7 @@ function wordJoinerWTags(jsonArray,ArrayList,leveltag,num){
 
     //let cont = [];
     for (var listaTexto = 0; listaTexto < ArrayList.length; listaTexto ++){
-        let palabra = new Texto();
+        let palabra = newTexto();
         var optionValue = [num,'split', listaTexto ,'text'];                //*****/
         var tagValue = [num,'split', listaTexto ,'tags'];                   //*****/
         var tag = OutputStringBuilder(new SearchValues(jsonArray,tagValue));
@@ -279,13 +283,14 @@ function iniciarTags(type,array){
     document.
     querySelector(".iniciar")
     .addEventListener("click", function () {
+
         var lenguaje = sessionStorage.getItem('lenguaje');
         let getSelect = getOption("select");
         let getIdioma = getOption("idioma");
         document.getElementById("parametros").innerHTML = "";
         document.getElementById("botonera").innerHTML = "";
         randomTextApi = mapearElementosEnArrayRandom(getSelect,"music",getIdioma,buffer);
-        console.log("numero de texto " + randomTextApi) + "\n" + buffer;
+        alert("numero de texto " + randomTextApi) + "\n" + buffer;
         insertarClip(array[randomTextApi].video[0].url);
         imprimirEjercicio(randomTextApi,getSelect,array);
     

@@ -1,4 +1,4 @@
-import { Objeto } from "./ObjetosEjercicio.js";
+import { Texto } from "./ObjetosEjercicio.js";
 import { API } from "./API.js";
 import { SearchKey } from "./SearchKey.js";
 import { SearchValues } from "./SearchValues.js";
@@ -7,7 +7,7 @@ import { musicgame } from "./musicGame.js";
 const API_URL = "http://api.gameoftesla.com/v1/text/";
 
 let buffer = [];
-let frase = new Objeto();
+let frase = new Texto();
 
 export let menuList = [];
 
@@ -23,7 +23,7 @@ export async function cargarBuffer() {
 }
 
 export async function fillthegaps() {
-    frase = new Objeto();
+    frase = new Texto();
     document.querySelector(".fillthegaps").disabled;
     var texts = await new API().get(API_URL);
     elementClean("#app");
@@ -37,7 +37,7 @@ export async function fillthegaps() {
 
 /*
 export async function musicgame() {
-    frase = new Objeto();
+    frase = newTexto();
     //ocument.querySelector(".fillthegaps").disabled;
     document.getElementById("inicio").style.display = "none";
     var texts = await new API().get(API_URL);
@@ -175,7 +175,7 @@ function wordJoinerWTags(jsonArray,ArrayList){
     var textoCompleto = "";
     //let cont = [];
     for (var listaTexto = 0; listaTexto < ArrayList.length; listaTexto ++){
-        let palabra = new Objeto();
+        let palabra = new Texto();
         var optionValue = [0,'split', listaTexto ,'text'];                //*****/
         var tagValue = [0,'split', listaTexto ,'tags'];                   //*****/
         var tag = OutputStringBuilder(new SearchValues(jsonArray,tagValue));
@@ -203,7 +203,7 @@ function wordJoinerWT(jsonArray,ArrayList,numText){
     var textoCompleto = "";
     //let cont = [];
     for (var listaTexto = 0; listaTexto < ArrayList.length; listaTexto ++){
-        let palabra = new Objeto();
+        let palabra = new Texto();
         var optionValue = [numText,'split', listaTexto ,'text'];                //*****/
         var tagValue = [numText,'split', listaTexto ,'tags'];                   //*****/
         var tag = OutputStringBuilder(new SearchValues(jsonArray,tagValue));
@@ -346,6 +346,6 @@ function obtenerHuecos(){
     let values=[];
     values = obtenerValoresHuecos();
     recorreHuecos(values);
-    console.log("Numero de objetos OBJETO -> " + frase.Contenedor.length + "Valores : " + values);
+    console.log("Numero de objetos Texto -> " + frase.Contenedor.length + "Valores : " + values);
 }
 

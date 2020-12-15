@@ -10,7 +10,6 @@ function menu(){
     setOnScreen(menuList,"app");
 }
 
-
 class SearchKey {
     #data = {};
     #route = [];

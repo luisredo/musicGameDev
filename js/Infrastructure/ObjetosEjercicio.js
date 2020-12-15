@@ -1,4 +1,4 @@
-export class Objeto {
+export class Texto {
     #contenedor = [];
     #word = "";
     #tag = "";
