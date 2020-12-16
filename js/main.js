@@ -1,7 +1,7 @@
-import { Listeners } from "./Infrastructure/Listeners.js";
+import { MusicGame } from "./musicGame/Infrastructure/musicGame.js";
 
-async function initAll() {
-  new Listeners();
+async function app(){
+  new MusicGame();
 }
 
-initAll();
+app();
