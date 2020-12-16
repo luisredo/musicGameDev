@@ -11,15 +11,24 @@ import { Urlget, setSession } from "../Shared/Infrastructure/Urlget.js"
 export class Listeners {
   constructor() {
     var ruta = new Ruta();
+    this.loadMusicListen();
     this.alIniciar();
     this.btnMenuListen(ruta);
     this.launchTestListen();
     this.loadBufferListen();
-    this.loadMusicListen();
+    
     this.loadftgListen();
     this.showInListen();
     this.alIniciar();
     this.loadTypeText();
+  }
+  loadMusicListen() {
+    document
+      .querySelector(".musicgame")
+      .addEventListener("click", function () {
+        //musicgame();
+        setMusicParams();
+      },false);   
   }
 
   btnMenuListen(ruta) {
@@ -95,14 +104,7 @@ export class Listeners {
       });   
   }
 
-  loadMusicListen() {
-    document
-      .querySelector(".musicgame")
-      .addEventListener("click", function () {
-        //musicgame();
-        setMusicParams();
-      },false);   
-  }
+
 
   loadTypeText() {
     document
