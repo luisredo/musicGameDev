@@ -46,15 +46,38 @@ export class Listeners {
 
   alIniciar() {
     // http://127.0.0.1:5500/musicGameDev/musicgame.html?lenguaje=es&nivelmusic=A1&tipo=music
-      var url = window.location.search.substr(1);
-      var getstr = new Urlget(url);
-
-      for(let i=0;i< getstr.length;i++){
-        let s = setSession(getstr[i]);
-        sessionStorage.setItem(s[0], s[1]);
+      var url = this.getURL();
+      if(!this.validateURL(url)){
+        //ir al inicio
       }
-      if(url.length>0)musicGameLoad();  
+      var params = this.split(url); 
+      params = this.paramsToObject(params);
+      Session.set("urlParams",params);
+      musicGameLoad();  
   }
+  validateURL(url){
+    if (url == "") return false;
+    return true;
+  }
+  
+  getURL(){
+    return window.location.search.substr(1);
+  }
+
+  split(string,separator="&"){
+    return string.split(separator);
+  }
+
+  paramsToObject(array){
+    var params = new Object;
+    array.forEach(element => {
+      var keyValue = element.split("=");
+      params[keyValue[0]]=keyValue[1];
+    });
+    return params;
+  }
+
+
 
   loadBufferListen() {
     document
