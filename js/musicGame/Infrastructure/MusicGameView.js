@@ -8,4 +8,8 @@ export class MusicGameView {
         var text = document.createTextNode("Bienvenido a musicgame.");
         this.#container.append(text);
     }
+    textArea(word){
+        var text = document.createTextNode(word);
+        this.#container.append(text);
+    }
 }
