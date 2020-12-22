@@ -356,11 +356,11 @@ function OutputStringBuilder(ArrayString){
 function fixSpaceValue(expression){
     switch(expression) {
         case ',':
-          return expression;
-          break ;
+            return expression;
+            break ;
         case '.':
             return expression;
-          break;
+            break;
         default:
             return ' ' + expression;
       }
