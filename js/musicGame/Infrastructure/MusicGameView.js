@@ -4,6 +4,9 @@ export class MusicGameView {
         this.#container = document.getElementById("musicGame");
         return this.welcomePage();
     }
+    printHTML(elementUI){
+        this.#container.append(elementUI);
+    }
     welcomePage(){
         var text = document.createTextNode("Bienvenido a musicgame.");
         this.#container.append(text);
@@ -15,7 +18,13 @@ export class MusicGameView {
         this.#container.append(vid);
         this.insertMedia(video);
     }
-
+    iframeYoutube(url){
+        var iframeUI = document.createElement("iframe");
+        iframeUI.setAttribute("class","btn btn-primary btn-lg btn-block");
+        iframeUI.setAttribute("style","display:block");
+        iframeUI.setAttribute("src",'https://www.youtube.com/embed/'+ url);
+        return iframeUI;
+    }
     insertMedia(video){
         document.getElementById("media").innerHTML = 
         `<div><iframe class="btn btn-primary btn-lg btn-block" width="560" height="315" src="https://www.youtube.com/embed/`
@@ -25,7 +34,7 @@ export class MusicGameView {
     showText(textElements){
         const div = document.createElement("div");
         div.className = "textElements";
-        this.#container.append(div);
+        //this.#container.append(div);
 
         textElements.forEach(element => {
 
@@ -38,6 +47,7 @@ export class MusicGameView {
             this.fixSpaceValue(element,div);
             
         });
+        return div;
     }
 
     fixSpaceValue(expression,father){

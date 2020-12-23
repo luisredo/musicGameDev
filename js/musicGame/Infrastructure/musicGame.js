@@ -1,7 +1,7 @@
 
 import { MusicGameView } from "./MusicGameView.js";
 import { AllContent } from "./ContentSelector.js";
-import { API } from "../../Infrastructure/API.js";
+import { AllContentRepository } from "./AllContentRepository.js";
 
 
 export class MusicGame {
@@ -9,19 +9,17 @@ export class MusicGame {
         this.getContent();
         }
     async getContent(){
-            const api_URL = "http://api.gameoftesla.com/v1/text/";
-            const local_URL = "http://127.0.0.1:5500/json/content.json";
-            var vista = new MusicGameView();
-            var fullContent = await new API().get(local_URL);
+            var fullContent = await new AllContentRepository().get();
             var allContent = new AllContent(fullContent);
             var arrayOptions = allContent.tagsToArrayElements("A1","it","music");
             var splitIndexSelection = allContent.selectRandomElementFromArray(arrayOptions);
             var urlMediaPlayer = allContent.getMediaPlayer(splitIndexSelection);
-            vista.mediaPlayer(urlMediaPlayer);
             var texto = allContent.getContentText(splitIndexSelection);
-            vista.showText(texto);
+            var view = new MusicGameView();
+            var iframeUI = view.iframeYoutube(urlMediaPlayer);
+            var textElementsUI = view.showText(texto);
+            view.printHTML(iframeUI);
+            view.printHTML(textElementsUI);
         }
-    async getApiContent(url){
-         return await new API().get(url);
-    }
+
 }
