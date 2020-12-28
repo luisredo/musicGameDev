@@ -9,9 +9,9 @@ export class SearchKey {
     }
     #search() {
       try {
-        return Array.from(Object.values(this.#data));
+        return Array.from(Object.keys(this.#data));
       } catch (error) {
-        console.error("error");
+        console.log("error.");
       }
     }
     #transform() {

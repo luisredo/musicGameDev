@@ -1,7 +1,16 @@
-import { MusicGame } from "./musicGame/Infrastructure/musicGame.js";
+import { MusicGameController } from "./musicGame/Infrastructure/MusicGameController.js";
+import { PageController } from "./Shared/Infrastructure/PageController.js";
 
 async function app(){
-  new MusicGame();
+  new PageController().showPage("home");
+  listerClickBtn();
+  
   }
 
 app();
+function listerClickBtn(){
+  document.getElementById("musicGameBtn").addEventListener("click", function(){
+    new PageController().showPage("musicGame");
+    new MusicGameController();
+   });
+}

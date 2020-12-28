@@ -5,9 +5,15 @@ export class AllContent{
         this.#content = content;
     }
 
-    getContentText(index){
+    getContent(...mustHaveTags){
+        var filteredArrayObjects = this.filteredOutToArrayObjects(mustHaveTags);
+        var splitIndexSelection = this.selectRandomElementFromArray (filteredArrayObjects);
+        return splitIndexSelection;
+    }
+
+    getContentText(content){
         var textArray = [];
-        var json = this.#content[index];
+        var json = content;
         var route = ["split"];
         var textElements = new SearchValues(json,route);
         textElements.forEach(element => {
@@ -16,6 +22,18 @@ export class AllContent{
         return textArray;
     }
 
+    filteredOutToArrayObjects(mustHaveTags){
+        var numElements = [];
+        var contentCount = this.#content.length;
+        for(var p = 0; p < contentCount; p++){
+            var allTags = this.#content[p].tags[0].tags;
+            if (this.hasTags(allTags,mustHaveTags)){
+               numElements.push(this.#content[p]);
+            }
+        }
+        return numElements;
+    }
+   
     tagsToArrayElements(...mustHaveTags){
         var numElements = [];
         var contentCount = this.#content.length;
@@ -45,16 +63,17 @@ export class AllContent{
 
     getText(index){
         var texto = [];
-        for (let i = 0; i < this.#content.length; i++) {
-            texto += this.#content[index].split[i].text;
+        for (let i = 0; i < index.length; i++) {
+            texto += index.split[i].text;
         }
         return texto;
     }
-    getMediaPlayer(index){
-        return this.#content[index].video[0].url;
+    getMediaPlayer(object){
+        var url = object.video[0].url;
+        return url;
     }
 
-    getTitle(index){
-        this.#content;
+    getTitle(){
+        return new SearchValues(object,["title"]);
     }
 }
