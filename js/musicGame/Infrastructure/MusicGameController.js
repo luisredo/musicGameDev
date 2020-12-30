@@ -3,6 +3,7 @@ import { MusicGameView } from "./MusicGameView.js";
 import { AllContent } from "./ContentSelector.js";
 import { AllContentRepository } from "./AllContentRepository.js";
 import { SearchValues } from "./SearchValues.js";
+import { utils } from "../Application/utils.js";
 
 
 export class MusicGameController {
@@ -13,6 +14,11 @@ export class MusicGameController {
 
     async getRandomContent(){
         var fullContent = await new AllContentRepository().get();
+
+        var tags = new utils().getArrayTags(fullContent);
+        var langs = new utils().getArrayLang(fullContent);
+        
+
         var content = new AllContent(fullContent); 
         var allContent = content.getContent("A1","it","music");
 

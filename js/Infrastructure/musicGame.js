@@ -126,7 +126,6 @@ function mapearElementosEnArrayRandom(idioma,nivel,tag,arrbuffer){
 }
 
 function mapearConjuntos(arrbuffer){
-    console.log(arrbuffer);
     var tagsMap = [];
     var langsMap = [];
     for(var p = 0; p < arrbuffer.length; p++){
@@ -142,7 +141,6 @@ function mapearConjuntos(arrbuffer){
         if (arrbuffer[p].video[0].language!=""){
                 langsMap.push(arrbuffer[p].video[0].language);
         }
-       
     }
     tagsMap = eliminarElementosRepetidos(tagsMap);
     langsMap = cleanArray(eliminarElementosRepetidos(langsMap));
@@ -154,6 +152,7 @@ function mapearConjuntos(arrbuffer){
       ". langsmap : " +langsMap
       );
 }
+
 function cleanArray( a ){
     var newArray = new Array();
     for( var i = 0, j = a.length; i < j; i++ ){
@@ -170,6 +169,7 @@ function eliminarElementosRepetidos(a){
     }
     return a;
 }
+
 function filtrarPorTag(tag,arrbuffer){
     var numElements = [] ;
     for(var p = 0; p < arrbuffer.length; p++){
@@ -177,6 +177,7 @@ function filtrarPorTag(tag,arrbuffer){
             numElements.push(p);
         }
     }
+
     var randomObtain = randomFromArray(numElements);
     console.log("[music elements -> " + numElements + " ][ An random element ->(" + randomObtain + ")].");
     return randomObtain;
