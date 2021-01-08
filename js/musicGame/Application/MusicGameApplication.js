@@ -1,19 +1,19 @@
-import { SearchValues } from "./SearchValues.js";
-export class AllContent{
-    #content = null;
-    constructor(content) {
-        this.#content = content;
+import { SearchValues } from "../../Shared/Application/SearchValues.js";
+export class MusicGameApplication{
+    #contents = null;
+    constructor(contents) {
+        this.#contents = contents;
     }
 
-    getContent(...mustHaveTags){
+    filter(mustHaveTags){
         var filteredArrayObjects = this.filteredOutToArrayObjects(mustHaveTags);
         var splitIndexSelection = this.selectRandomElementFromArray (filteredArrayObjects);
         return splitIndexSelection;
     }
 
-    getContentText(content){
+    getContentText(contents){
         var textArray = [];
-        var json = content;
+        var json = contents;
         var route = ["split"];
         var textElements = new SearchValues(json,route);
         textElements.forEach(element => {
@@ -24,11 +24,11 @@ export class AllContent{
 
     filteredOutToArrayObjects(mustHaveTags){
         var numElements = [];
-        var contentCount = this.#content.length;
+        var contentCount = this.#contents.length;
         for(var p = 0; p < contentCount; p++){
-            var allTags = this.#content[p].tags[0].tags;
+            var allTags = this.#contents[p].tags[0].tags;
             if (this.hasTags(allTags,mustHaveTags)){
-               numElements.push(this.#content[p]);
+               numElements.push(this.#contents[p]);
             }
         }
         return numElements;
@@ -36,9 +36,9 @@ export class AllContent{
    
     tagsToArrayElements(...mustHaveTags){
         var numElements = [];
-        var contentCount = this.#content.length;
+        var contentCount = this.#contents.length;
         for(var p = 0; p < contentCount; p++){
-            var allTags = this.#content[p].tags[0].tags;
+            var allTags = this.#contents[p].tags[0].tags;
             if (this.hasTags(allTags,mustHaveTags)){
                numElements.push(p);
             }

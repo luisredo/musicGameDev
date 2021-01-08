@@ -1,4 +1,4 @@
-import { SearchValues } from "../Infrastructure/SearchValues.js";
+import { SearchValues } from "../../Shared/Application/SearchValues.js";
 
 export class utils{
     getArrayTags(content){
