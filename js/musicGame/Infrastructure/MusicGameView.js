@@ -2,7 +2,6 @@ export class MusicGameView {
   #container = null;
   constructor() {
     this.#container = document.getElementById("musicGame");
-    return this.welcomePage();
   }
   printHTML(elementUI) {
     this.#container.append(elementUI);
@@ -35,11 +34,10 @@ export class MusicGameView {
   showText(textElements) {
     const div = document.createElement("div");
     div.className = "textElements";
-    //this.#container.append(div);
-    var noTextelements = [",",".","\\n"];
+    var specialCharsArray = [",",".","\\n"];
     textElements.forEach((element) => {
-      if (noTextelements.includes(element.text)) {
-        var fixed = this.fixSpaceValue(element.text);
+      if (specialCharsArray.includes(element.text)) {
+        var fixed = this.specialChars(element.text);
         div.appendChild(fixed);
       } else {
         if (element.tag == false) {
@@ -55,32 +53,30 @@ export class MusicGameView {
           input.style.color = "black";
           div.append(input);
         }
-
-        var fixed = this.fixSpaceValue(element.text);
+        var fixed = this.specialChars(element.text);
         div.appendChild(fixed);
       }
     });
     return div;
   }
 
-  fixSpaceValue(expression) {
+  specialChars(expression) {
     switch (expression) {
       case "\\n":
         var p = document.createElement("p");
-        p.textContent = "";
         return p;
         break;
       case ",":
-        var o = document.createTextNode(", ");
-        return o;
+        var character = document.createTextNode(", ");
+        return character;
         break;
       case ".":
-        var o = document.createTextNode(".");
-        return o;
+        var character = document.createTextNode(".");
+        return character;
         break;
       default:
-        var space = document.createTextNode(" ");
-        return space;
+        var character = document.createTextNode(" ");
+        return character;
         break;
     }
   }

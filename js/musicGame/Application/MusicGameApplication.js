@@ -30,7 +30,6 @@ export class MusicGameApplication {
 
   getArrayTextObject(objectArrayElements,mustHaveTags){
     var tagsContainer = new textObjects();
-    var count = 0;
     objectArrayElements.forEach((element) => {
       if(mustHaveTags.includes(element.tags)){
         var textObj = new Object();
@@ -84,6 +83,7 @@ export class MusicGameApplication {
     }
     return texto;
   }
+
   getMediaPlayer(object) {
     var url = object.video[0].url;
     return url;
