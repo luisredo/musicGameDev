@@ -31,17 +31,10 @@ export class MusicGameApplication {
   getArrayTextObject(objectArrayElements,mustHaveTags){
     var tagsContainer = new textObjects();
     objectArrayElements.forEach((element) => {
-      if(mustHaveTags.includes(element.tags)){
-        var textObj = new Object();
-        textObj.tag = true;
-        textObj.text = element.text;
-        tagsContainer.addObjectToTagArray(textObj);
-      } else {
-        var textObj = new Object();
-        textObj.tag = false;
-        textObj.text = element.text;
-        tagsContainer.addObjectToTagArray(textObj);
-      }
+      var textObj = new Object();
+      textObj.text = element.text;
+      textObj.tag = mustHaveTags.includes(element.tags) ? true : false;
+      tagsContainer.addObjectToTagArray(textObj);
     });
     return tagsContainer.getObjectTagArray();
   }

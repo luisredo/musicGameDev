@@ -17,6 +17,13 @@ export class MusicGameView {
     this.#container.append(vid);
     this.insertMedia(video);
   }
+
+  exercise() {
+    var exercise = document.createElement("div");
+    iframeUI.setAttribute("class", "exercise");
+    return exercise;
+  }
+
   iframeYoutube(url) {
     var iframeUI = document.createElement("iframe");
     iframeUI.setAttribute("class", "btn btn-primary btn-lg btn-block");
@@ -34,7 +41,7 @@ export class MusicGameView {
   showText(textElements) {
     const div = document.createElement("div");
     div.className = "textElements";
-    var specialCharsArray = [",",".","\\n"];
+    var specialCharsArray = [",", ".", "\\n"];
     textElements.forEach((element) => {
       if (specialCharsArray.includes(element.text)) {
         var fixed = this.specialChars(element.text);
