@@ -22,9 +22,7 @@ export class MusicGameApplication {
   }
 
   getContentTextUseCase(content,mustHaveTags){
-    var json = content;
-    var route = ["split"];
-    var objectArrayElements = new SearchValues(json, route);
+    var objectArrayElements = content.split;
     return this.getArrayTextObject(objectArrayElements,mustHaveTags);
   }
 
@@ -37,17 +35,6 @@ export class MusicGameApplication {
       tagsContainer.addObjectToTagArray(textObj);
     });
     return tagsContainer.getObjectTagArray();
-  }
-
-  getContentText(contents) {
-    var textArray = [];
-    var json = contents;
-    var route = ["split"];
-    var textElements = new SearchValues(json, route);
-    textElements.forEach((element) => {
-      textArray.push(element.text);
-    });
-    return textArray;
   }
 
   tagsToArrayElements(...mustHaveTags) {

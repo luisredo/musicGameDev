@@ -6,6 +6,9 @@ export class MusicGameView {
   printHTML(elementUI) {
     this.#container.append(elementUI);
   }
+  clean(className){
+    document.querySelector(className).innerHTML = "";
+  }
   welcomePage() {
     var text = document.createTextNode("Bienvenido a musicgame.");
     this.#container.append(text);
@@ -42,28 +45,33 @@ export class MusicGameView {
     const div = document.createElement("div");
     div.className = "textElements";
     var specialCharsArray = [",", ".", "\\n"];
-    textElements.forEach((element) => {
+    var textElementsCount = textElements.length;
+    for (var i=0; i < textElementsCount; i++) {
+      var element = textElements[i];
+      var nextElement = textElements[i+1];
+      if (element.tag === true) {
+        var input = document.createElement("input");
+        input.setAttribute("data-response", element.text);
+        input.className = "wordElement";
+        input.style.color = "black";
+        div.append(input);
+        continue;
+      }
+      var fixed = this.specialChars(element.text);
       if (specialCharsArray.includes(element.text)) {
-        var fixed = this.specialChars(element.text);
         div.appendChild(fixed);
-      } else {
-        if (element.tag == false) {
-          var span = document.createElement("span");
-          span.textContent = element.text;
-          span.className = "wordElement";
-          span.style.color = "red";
-          div.append(span);
-        } else {
-          var input = document.createElement("input");
-          input.textContent = element.text;
-          input.className = "wordElement";
-          input.style.color = "black";
-          div.append(input);
-        }
-        var fixed = this.specialChars(element.text);
+        continue;
+      }
+      var span = document.createElement("span");
+      span.textContent = element.text;
+      span.className = "wordElement";
+      span.style.color = "red";
+      div.append(span);
+      if (!specialCharsArray.includes(nextElement.text)) {
         div.appendChild(fixed);
       }
-    });
+      debugger;
+    }
     return div;
   }
 

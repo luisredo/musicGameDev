@@ -44,11 +44,15 @@ export class MusicGameController {
     
     var urlMediaPlayer = allContent.getMediaPlayer(content);
     var ArrayObject = allContent.getContentTextUseCase(content,mustHaveTags);
-    
+
     var view = new MusicGameView();
+    var div = document.createElement("div");
+    div.setAttribute("class","musicGameContent");    
     var iframeUI = view.iframeYoutube(urlMediaPlayer);
     var textElementsUI = view.showText(ArrayObject);
-    view.printHTML(iframeUI);
-    view.printHTML(textElementsUI);
+    div.append(iframeUI);
+    div.append(textElementsUI);
+    view.clean(".musicGameContent");
+    view.printHTML(div);
   }
 }
