@@ -21,6 +21,14 @@ export class MusicGameView {
     this.insertMedia(video);
   }
 
+  toCorrect() {
+    var toCorrect = document.createElement("input");
+    toCorrect.setAttribute("type", "button");
+    toCorrect.setAttribute("id","toCorrect");
+    toCorrect.setAttribute("value","Corregir");
+    return toCorrect;
+  }
+
   exercise() {
     var exercise = document.createElement("div");
     iframeUI.setAttribute("class", "exercise");
@@ -54,6 +62,7 @@ export class MusicGameView {
         input.setAttribute("data-response", element.text);
         input.className = "wordElement";
         input.style.color = "black";
+        input.setAttribute("type","text");
         div.append(input);
         continue;
       }
@@ -70,7 +79,7 @@ export class MusicGameView {
       if (!specialCharsArray.includes(nextElement.text)) {
         div.appendChild(fixed);
       }
-      debugger;
+      //debugger;
     }
     return div;
   }

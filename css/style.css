@@ -1,3 +1,9 @@
 .hidden{
     display: none;
 }
+.textElements .correct{
+    background-color: green;
+}
+.textElements .incorrect{
+    background-color: red;
+}

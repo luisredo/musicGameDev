@@ -11,7 +11,6 @@ export class MusicGameController {
   }
 
   async showMenuPage() {
-    
     this.#contents = await new ContentsRepository().get();
     var contents = this.#contents;
 
@@ -26,9 +25,17 @@ export class MusicGameController {
     view.printHTML(buttonAccept);
     this.listenMenu();
   }
-  listenMenu(){
-    document.getElementById("btnAccept").addEventListener("click",this.onClickLoadMusicGame.bind(this));
+  listenMenu() {
+    document
+      .getElementById("btnAccept")
+      .addEventListener("click", this.onClickLoadMusicGame.bind(this));
   }
+  listenToCorrect() {
+    document
+      .getElementById("toCorrect")
+      .addEventListener("click", this.correct.bind(this));
+  }
+
   onClickLoadMusicGame() {
     var selects = document.querySelectorAll("select");
     var mustHaveTags = ["music"];
@@ -41,18 +48,37 @@ export class MusicGameController {
   musicGameContentAndParamsToPage(mustHaveTags) {
     var allContent = new MusicGameApplication(this.#contents);
     var content = allContent.filter(mustHaveTags);
-    
+
     var urlMediaPlayer = allContent.getMediaPlayer(content);
-    var ArrayObject = allContent.getContentTextUseCase(content,mustHaveTags);
+    var ArrayObject = allContent.getContentTextUseCase(content, mustHaveTags);
 
     var view = new MusicGameView();
     var div = document.createElement("div");
-    div.setAttribute("class","musicGameContent");    
+    div.setAttribute("class", "musicGameContent");
     var iframeUI = view.iframeYoutube(urlMediaPlayer);
     var textElementsUI = view.showText(ArrayObject);
+    var toCorrect = view.toCorrect();
     div.append(iframeUI);
     div.append(textElementsUI);
-    view.clean(".musicGameContent");
+    div.append(toCorrect);
+    //view.clean(".musicGameContent");
     view.printHTML(div);
+    this.listenToCorrect();
+  }
+
+  correct() {
+    var arrayGame = document.querySelectorAll(".textElements input[type=text]");
+    var arrayGameCount = arrayGame.length;
+    for(var i = 0;i< arrayGameCount ;i++ ){
+      var dataResponse = arrayGame[i].getAttribute("data-response");
+      var value = arrayGame[i].value;
+      var attribute = this.isCorrect(value,dataResponse) ? "correct" : "incorrect";
+      arrayGame[i].classList.add(attribute);
+      debugger;
+    }
+    
+  }
+  isCorrect(value,correctAnswer){
+    return value === correctAnswer ? true : false;
   }
 }
