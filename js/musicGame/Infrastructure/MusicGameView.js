@@ -79,7 +79,7 @@ export class MusicGameView {
       if (!specialCharsArray.includes(nextElement.text)) {
         div.appendChild(fixed);
       }
-      //debugger;
+      //
     }
     return div;
   }

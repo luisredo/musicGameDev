@@ -7,3 +7,6 @@
 .textElements .incorrect{
     background-color: red;
 }
+.wordElements {
+    width: 100px;
+}

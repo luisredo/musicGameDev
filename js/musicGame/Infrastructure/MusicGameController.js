@@ -74,7 +74,7 @@ export class MusicGameController {
       var value = arrayGame[i].value;
       var attribute = this.isCorrect(value,dataResponse) ? "correct" : "incorrect";
       arrayGame[i].classList.add(attribute);
-      debugger;
+      
     }
     
   }

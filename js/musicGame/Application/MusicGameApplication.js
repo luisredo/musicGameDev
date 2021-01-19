@@ -1,7 +1,8 @@
 import { SearchValues } from "../../Shared/Application/SearchValues.js";
 import { textObjects } from "../../Shared/Application/TextObjects.js";
 import { FilterContentWithTagsUseCase } from "./FilterContentsWithTagsUseCase.js";
-import { hasTags } from "./hasTags.js";
+import { selectRandomElementFromArray } from "./selectRandomElementFromArray.js";
+
 export class MusicGameApplication {
   #contents = null;
   constructor(contents) {
@@ -15,18 +16,18 @@ export class MusicGameApplication {
     var filteredArrayObjects = filterContentWithTagsUseCase.execute(
       mustHaveTags
     );
-    var splitIndexSelection = this.selectRandomElementFromArray(
+    var splitIndexSelection = selectRandomElementFromArray(
       filteredArrayObjects
     );
     return splitIndexSelection;
   }
 
-  getContentTextUseCase(content,mustHaveTags){
+  getContentTextUseCase(content, mustHaveTags) {
     var objectArrayElements = content.split;
-    return this.getArrayTextObject(objectArrayElements,mustHaveTags);
+    return this.getArrayTextObject(objectArrayElements, mustHaveTags);
   }
 
-  getArrayTextObject(objectArrayElements,mustHaveTags){
+  getArrayTextObject(objectArrayElements, mustHaveTags) {
     var tagsContainer = new textObjects();
     objectArrayElements.forEach((element) => {
       var textObj = new Object();
@@ -35,25 +36,6 @@ export class MusicGameApplication {
       tagsContainer.addObjectToTagArray(textObj);
     });
     return tagsContainer.getObjectTagArray();
-  }
-
-  tagsToArrayElements(...mustHaveTags) {
-    var numElements = [];
-    var contentCount = this.#contents.length;
-    for (var p = 0; p < contentCount; p++) {
-      var allTags = this.#contents[p].tags[0].tags;
-      if (hasTags(allTags, mustHaveTags)) {
-        numElements.push(p);
-      }
-    }
-    return numElements;
-  }
-
-  selectRandomElementFromArray(array) {
-    var elementsCount = array.length;
-    var randomKey = Math.floor(Math.random() * elementsCount);
-    var randomElement = array[randomKey];
-    return randomElement;
   }
 
   getText(index) {

@@ -1,4 +1,4 @@
-import { API } from "../../Infrastructure/API.js";
+import { API } from "./API.js";
 
 export class ContentsRepository{
     #localURL = "http://127.0.0.1:5501/json/content.json";
