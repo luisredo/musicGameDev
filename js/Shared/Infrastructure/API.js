@@ -1,4 +1,6 @@
-export class API {
+export class API
+
+{
   #data = null;
   async get(url) {
     await fetch(url)

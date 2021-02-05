@@ -9,6 +9,9 @@ export class MusicGameView {
   clean(className){
     document.querySelector(className).innerHTML = "";
   }
+  blankId(className){
+    document.getElementById(className).innerHTML = "";
+  }
   welcomePage() {
     var text = document.createTextNode("Bienvenido a musicgame.");
     this.#container.append(text);
@@ -76,10 +79,14 @@ export class MusicGameView {
       span.className = "wordElement";
       span.style.color = "red";
       div.append(span);
-      if (!specialCharsArray.includes(nextElement.text)) {
-        div.appendChild(fixed);
+      
+      try {
+        if (!specialCharsArray.includes(nextElement.text)) {
+          div.appendChild(fixed);
+        }
+      } catch (error) {
+        console.log(error);
       }
-      //
     }
     return div;
   }

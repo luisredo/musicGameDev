@@ -12,7 +12,7 @@ export class SearchValues {
       try {
         return Array.from(Object.values(this.#data));
       } catch (error) {
-        console.error("error");
+        console.log("error");
       }
     }
     #transform() {

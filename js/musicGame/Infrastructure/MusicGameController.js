@@ -55,13 +55,20 @@ export class MusicGameController {
     var view = new MusicGameView();
     var div = document.createElement("div");
     div.setAttribute("class", "musicGameContent");
+    var footer = document.getElementById("footer");
+    var navbar = document.getElementById("navbar");
     var iframeUI = view.iframeYoutube(urlMediaPlayer);
     var textElementsUI = view.showText(ArrayObject);
     var toCorrect = view.toCorrect();
-    div.append(iframeUI);
-    div.append(textElementsUI);
-    div.append(toCorrect);
-    //view.clean(".musicGameContent");
+    view.blankId("footer");
+    view.blankId("navbar");
+    navbar.setAttribute("class","navbar");
+    navbar.append(document.createTextNode("navbar"));
+    footer.setAttribute("class","footer");
+    footer.append(toCorrect);
+    div.append(navbar);
+    div.append(footer);
+    
     view.printHTML(div);
     this.listenToCorrect();
   }
@@ -73,8 +80,7 @@ export class MusicGameController {
       var dataResponse = arrayGame[i].getAttribute("data-response");
       var value = arrayGame[i].value;
       var attribute = this.isCorrect(value,dataResponse) ? "correct" : "incorrect";
-      arrayGame[i].classList.add(attribute);
-      
+      arrayGame[i].classList.add(attribute);     
     }
     
   }
