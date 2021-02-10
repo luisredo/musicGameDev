@@ -39,11 +39,15 @@ export class MusicGameView {
   }
 
   iframeYoutube(url) {
+    var div = document.createElement("div");
+    div.setAttribute("class","center");
     var iframeUI = document.createElement("iframe");
+    iframeUI.setAttribute("frameborder","0");
     iframeUI.setAttribute("class", "btn btn-primary btn-lg btn-block");
     iframeUI.setAttribute("style", "display:block");
     iframeUI.setAttribute("src", "https://www.youtube.com/embed/" + url);
-    return iframeUI;
+    div.append(iframeUI);
+    return div;
   }
   insertMedia(video) {
     document.getElementById("media").innerHTML =
@@ -57,7 +61,7 @@ export class MusicGameView {
     div.className = "textElements";
     var specialCharsArray = [",", ".", "\\n"];
     var textElementsCount = textElements.length;
-    for (var i=0; i < textElementsCount; i++) {
+    for (var i=0; i < textElementsCount-1; i++) {
       var element = textElements[i];
       var nextElement = textElements[i+1];
       if (element.tag === true) {

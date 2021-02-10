@@ -20,9 +20,10 @@ export class MusicGameController {
     var selectOfLevels = new filterView().createSelect(tags);
     var selectOfLanguages = new filterView().createSelect(langs);
     var buttonAccept = new filterView().createButton();
-    view.printHTML(selectOfLevels);
-    view.printHTML(selectOfLanguages);
-    view.printHTML(buttonAccept);
+    var navbar = document.getElementById("navbar");
+    navbar.append(selectOfLevels);
+    navbar.append(selectOfLanguages);
+    navbar.append(buttonAccept);
     this.listenMenu();
   }
   listenMenu() {
@@ -56,19 +57,15 @@ export class MusicGameController {
     var div = document.createElement("div");
     div.setAttribute("class", "musicGameContent");
     var footer = document.getElementById("footer");
-    var navbar = document.getElementById("navbar");
+
     var iframeUI = view.iframeYoutube(urlMediaPlayer);
     var textElementsUI = view.showText(ArrayObject);
     var toCorrect = view.toCorrect();
     view.blankId("footer");
-    view.blankId("navbar");
-    navbar.setAttribute("class","navbar");
-    navbar.append(document.createTextNode("navbar"));
     footer.setAttribute("class","footer");
     footer.append(toCorrect);
-    div.append(navbar);
-    div.append(footer);
-    
+    div.append(iframeUI);
+    div.append(textElementsUI);
     view.printHTML(div);
     this.listenToCorrect();
   }
