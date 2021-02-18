@@ -44,6 +44,7 @@ div.textElements {
       padding-right: 30px;
   }
   iframe{
+    box-sizing: border-box;
     position:absolute;
     top:0;
     left:0;

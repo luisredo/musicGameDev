@@ -3,13 +3,19 @@ import { PageController } from "./Shared/Infrastructure/PageController.js";
 
 async function app(){
   new PageController().showPage("home");
-  listerClickBtn();
-  
+  listerClickBtnMusic();
+  listerClickBtnFillTheGaps();
   }
 
 app();
-function listerClickBtn(){
+function listerClickBtnMusic(){
   document.getElementById("musicGameBtn").addEventListener("click", function(){
+    new PageController().showPage("musicGame");
+    new MusicGameController();
+   });
+}
+function listerClickBtnFillTheGaps(){
+  document.getElementById("FillTheGapsBtn").addEventListener("click", function(){
     new PageController().showPage("musicGame");
     new MusicGameController();
    });
