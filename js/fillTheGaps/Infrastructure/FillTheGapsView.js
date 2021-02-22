@@ -51,10 +51,14 @@ export class FillTheGapsView {
   }
 
   getSound(url) {
-    var audio = document.createElement("audio");
+    var audio = document.createElement("AUDIO");
+    var source = document.createElement("source");
     audio.setAttribute("class","audio");
+    audio.setAttribute("controls", "controls");
     audio.setAttribute("style","display:block");
-    audio.setAttribute("src",url);
+    source.setAttribute("src",url);
+    audio.append(source);
+    
     return audio;
   }
 
