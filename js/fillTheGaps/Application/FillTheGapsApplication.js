@@ -10,6 +10,7 @@ export class FillTheGapsApplication {
   }
 
   filter(mustHaveTags) {
+    debugger;
     var filterContentWithTagsUseCase = new FilterContentWithTagsUseCase(
       this.#contents
     );
@@ -48,6 +49,12 @@ export class FillTheGapsApplication {
 
   getMediaPlayer(object) {
     var url = object.video[0].url;
+    return url;
+  }
+
+  getSoundUrl(object){
+    debugger;
+    var url = object.ftg[0].url;
     return url;
   }
 

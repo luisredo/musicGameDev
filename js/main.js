@@ -1,3 +1,4 @@
+import { FillTheGapsController } from "./fillTheGaps/Infrastructure/FillTheGapsController.js";
 import { MusicGameController } from "./musicGame/Infrastructure/MusicGameController.js";
 import { PageController } from "./Shared/Infrastructure/PageController.js";
 
@@ -16,7 +17,7 @@ function listerClickBtnMusic(){
 }
 function listerClickBtnFillTheGaps(){
   document.getElementById("FillTheGapsBtn").addEventListener("click", function(){
-    new PageController().showPage("musicGame");
-    new MusicGameController();
+    new PageController().showPage("fillTheGaps");
+    new FillTheGapsController();
    });
 }

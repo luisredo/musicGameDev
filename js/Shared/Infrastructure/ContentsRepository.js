@@ -6,6 +6,9 @@ export class ContentsRepository{
     async get(){
         return await this.getApiContent(this.#localURL);
     }
+    async getFTG(){
+        return await this.getApiContent(this.#apiURL);
+    }
 
     async getApiContent(url){
         return await new API().get(url);;

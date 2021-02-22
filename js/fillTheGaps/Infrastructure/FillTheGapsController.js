@@ -1,22 +1,21 @@
 import { FillTheGapsView } from "./FillTheGapsView.js";
-import { MusicGameApplication } from "../Application/FillTheGapsApplication.js";
+import { FillTheGapsApplication } from "../Application/FillTheGapsApplication.js";
 import { ContentsRepository } from "../../Shared/Infrastructure/ContentsRepository.js";
 import { utils } from "../Application/utils.js";
 import { filterView } from "./filterView.js";
 
-export class MusicGameController {
+export class FillTheGapsController {
   #contents = null;
   constructor() {
     this.showMenuPage();
   }
 
   async showMenuPage() {
-    this.#contents = await new ContentsRepository().get();
+    this.#contents = await new ContentsRepository().getFTG();
     var contents = this.#contents;
-
     var tags = new utils().getArrayTags(contents);
     var langs = new utils().getArrayLang(contents);
-    var view = new MusicGameView();
+    var veiw = new FillTheGapsView();
     var selectOfLevels = new filterView().createSelect(tags);
     var selectOfLanguages = new filterView().createSelect(langs);
     var buttonAccept = new filterView().createButton();
@@ -39,7 +38,7 @@ export class MusicGameController {
 
   onClickLoadMusicGame() {
     var selects = document.querySelectorAll("select");
-    var mustHaveTags = ["music"];
+    var mustHaveTags = [];
     selects.forEach(function (select) {
       mustHaveTags.push(select.value);
     });
@@ -47,18 +46,19 @@ export class MusicGameController {
   }
 
   musicGameContentAndParamsToPage(mustHaveTags) {
-    var allContent = new MusicGameApplication(this.#contents);
+    var allContent = new FillTheGapsApplication(this.#contents);
     var content = allContent.filter(mustHaveTags);
 
-    var urlMediaPlayer = allContent.getMediaPlayer(content);
+    //var urlMediaPlayer = allContent.getMediaPlayer(content);
+    var urlMediaPlayer = allContent.getSoundUrl(content);
     var ArrayObject = allContent.getContentTextUseCase(content, mustHaveTags);
-
-    var view = new MusicGameView();
+    debugger; //*TextDev
+    var view = new FillTheGapsView();
     var div = document.createElement("div");
     div.setAttribute("class", "musicGameContent");
     var footer = document.getElementById("footer");
-
-    var iframeUI = view.iframeYoutube(urlMediaPlayer);
+    //var iframeUI = view.iframeYoutube(urlMediaPlayer);
+    var iframeUI = view.getSound(urlMediaPlayer);
     var textElementsUI = view.showText(ArrayObject);
     var toCorrect = view.toCorrect();
     view.blankId("footer");

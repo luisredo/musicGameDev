@@ -1,19 +1,19 @@
-export class MusicGameView {
+export class FillTheGapsView {
   #container = null;
   constructor() {
-    this.#container = document.getElementById("musicGame");
+    this.#container = document.getElementById("fillTheGaps");
   }
   printHTML(elementUI) {
     this.#container.append(elementUI);
   }
-  clean(className){
+  clean(className) {
     document.querySelector(className).innerHTML = "";
   }
-  blankId(className){
+  blankId(className) {
     document.getElementById(className).innerHTML = "";
   }
   welcomePage() {
-    var text = document.createTextNode("Bienvenido a musicgame.");
+    var text = document.createTextNode("Bienvenido a fill the gaps.");
     this.#container.append(text);
   }
 
@@ -27,8 +27,8 @@ export class MusicGameView {
   toCorrect() {
     var toCorrect = document.createElement("input");
     toCorrect.setAttribute("type", "button");
-    toCorrect.setAttribute("id","toCorrect");
-    toCorrect.setAttribute("value","Corregir");
+    toCorrect.setAttribute("id", "toCorrect");
+    toCorrect.setAttribute("value", "Corregir");
     return toCorrect;
   }
 
@@ -40,15 +40,24 @@ export class MusicGameView {
 
   iframeYoutube(url) {
     var div = document.createElement("div");
-    div.setAttribute("class","center");
+    div.setAttribute("class", "center");
     var iframeUI = document.createElement("iframe");
-    iframeUI.setAttribute("frameborder","0");
-    iframeUI.setAttribute("class", "btn btn-primary btn-lg btn-block");
+    iframeUI.setAttribute("frameborder", "0");
+    iframeUI.setAttribute("class", "youtube");
     iframeUI.setAttribute("style", "display:block");
     iframeUI.setAttribute("src", "https://www.youtube.com/embed/" + url);
     div.append(iframeUI);
     return div;
   }
+
+  getSound(url) {
+    var audio = document.createElement("audio");
+    audio.setAttribute("class","audio");
+    audio.setAttribute("style","display:block");
+    audio.setAttribute("src",url);
+    return audio;
+  }
+
   insertMedia(video) {
     document.getElementById("media").innerHTML =
       `<div><iframe class="btn btn-primary btn-lg btn-block" width="560" height="315" src="https://www.youtube.com/embed/` +
@@ -61,15 +70,15 @@ export class MusicGameView {
     div.className = "textElements";
     var specialCharsArray = [",", ".", "\\n"];
     var textElementsCount = textElements.length;
-    for (var i=0; i < textElementsCount-1; i++) {
+    for (var i = 0; i < textElementsCount - 1; i++) {
       var element = textElements[i];
-      var nextElement = textElements[i+1];
+      var nextElement = textElements[i + 1];
       if (element.tag === true) {
         var input = document.createElement("input");
         input.setAttribute("data-response", element.text);
         input.className = "wordElement";
         input.style.color = "black";
-        input.setAttribute("type","text");
+        input.setAttribute("type", "text");
         div.append(input);
         continue;
       }
@@ -83,7 +92,7 @@ export class MusicGameView {
       span.className = "wordElement";
       span.style.color = "red";
       div.append(span);
-      
+
       try {
         if (!specialCharsArray.includes(nextElement.text)) {
           div.appendChild(fixed);
