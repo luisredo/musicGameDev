@@ -11,7 +11,7 @@ export class MusicGameController {
   }
 
   async showMenuPage() {
-    this.#contents = await new ContentsRepository().get();
+    this.#contents = await new ContentsRepository().getMusic();
     var contents = this.#contents;
 
     var tags = new utils().getArrayTags(contents);

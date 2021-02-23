@@ -72,7 +72,7 @@ export class FillTheGapsView {
   showText(textElements) {
     const div = document.createElement("div");
     div.className = "textElements";
-    var specialCharsArray = [",", ".", "\\n"];
+    var specialCharsArray = [",", ".", "\\n","\\", "\\\\"];
     var textElementsCount = textElements.length;
     for (var i = 0; i < textElementsCount - 1; i++) {
       var element = textElements[i];
@@ -110,6 +110,10 @@ export class FillTheGapsView {
 
   specialChars(expression) {
     switch (expression) {
+      case "\\\\":
+        var p = document.createElement("p");
+        return p;
+        break;
       case "\\n":
         var p = document.createElement("p");
         return p;

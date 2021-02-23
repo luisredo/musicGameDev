@@ -28,7 +28,7 @@ export class FillTheGapsController {
   listenMenu() {
     document
       .getElementById("btnAccept")
-      .addEventListener("click", this.onClickLoadMusicGame.bind(this));
+      .addEventListener("click", this.onClickLoad.bind(this));
   }
   listenToCorrect() {
     document
@@ -36,16 +36,16 @@ export class FillTheGapsController {
       .addEventListener("click", this.correct.bind(this));
   }
 
-  onClickLoadMusicGame() {
+  onClickLoad() {
     var selects = document.querySelectorAll("select");
     var mustHaveTags = [];
     selects.forEach(function (select) {
       mustHaveTags.push(select.value);
     });
-    this.musicGameContentAndParamsToPage(mustHaveTags);
+    this.ContentAndParamsToPage(mustHaveTags);
   }
 
-  musicGameContentAndParamsToPage(mustHaveTags) {
+  ContentAndParamsToPage(mustHaveTags) {
     var allContent = new FillTheGapsApplication(this.#contents);
     var content = allContent.filter(mustHaveTags);
 
@@ -55,7 +55,7 @@ export class FillTheGapsController {
     debugger; //*TextDev
     var view = new FillTheGapsView();
     var div = document.createElement("div");
-    div.setAttribute("class", "musicGameContent");
+    div.setAttribute("class", "audioContent");
     var footer = document.getElementById("footer");
     //var iframeUI = view.iframeYoutube(urlMediaPlayer);
     var iframeUI = view.getSound(urlMediaPlayer);
