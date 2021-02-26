@@ -43,6 +43,10 @@ export class MusicGameController {
     selects.forEach(function (select) {
       mustHaveTags.push(select.value);
     });
+    
+    var navbar = document.getElementById("navbar");
+    navbar.setAttribute("class","hidden");
+
     this.musicGameContentAndParamsToPage(mustHaveTags);
   }
 

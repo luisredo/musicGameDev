@@ -32,7 +32,7 @@ export class utils {
       var langRoute = [p, "ftg", 0, "language"];
       try {
         var lenguaje = new SearchValues(content, langRoute);
-        debugger;
+        
         if (lenguaje != "") {
           langsMap.push(content[p].ftg[0].language);
         }

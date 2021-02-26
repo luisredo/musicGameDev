@@ -38,10 +38,14 @@ export class FillTheGapsController {
 
   onClickLoad() {
     var selects = document.querySelectorAll("select");
-    var mustHaveTags = [];
+    var mustHaveTags = ["idiomas"];
     selects.forEach(function (select) {
       mustHaveTags.push(select.value);
     });
+
+    var navbar = document.getElementById("navbar");
+    navbar.setAttribute("class","hidden");
+
     this.ContentAndParamsToPage(mustHaveTags);
   }
 
@@ -52,7 +56,7 @@ export class FillTheGapsController {
     //var urlMediaPlayer = allContent.getMediaPlayer(content);
     var urlMediaPlayer = allContent.getSoundUrl(content);
     var ArrayObject = allContent.getContentTextUseCase(content, mustHaveTags);
-    debugger; //*TextDev
+     //*TextDev
     var view = new FillTheGapsView();
     var div = document.createElement("div");
     div.setAttribute("class", "audioContent");

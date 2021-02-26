@@ -40,10 +40,10 @@ export class MusicGameView {
 
   iframeYoutube(url) {
     var div = document.createElement("div");
-    div.setAttribute("class","center");
+    div.setAttribute("class","center col-sm-6");
     var iframeUI = document.createElement("iframe");
     iframeUI.setAttribute("frameborder","0");
-    iframeUI.setAttribute("class", "btn btn-primary btn-lg btn-block");
+    iframeUI.setAttribute("class", "pos-fix");
     iframeUI.setAttribute("style", "display:block");
     iframeUI.setAttribute("src", "https://www.youtube.com/embed/" + url);
     div.append(iframeUI);
@@ -58,7 +58,7 @@ export class MusicGameView {
 
   showText(textElements) {
     const div = document.createElement("div");
-    div.className = "textElements";
+    div.className = "textElements col-sm-6";
     var specialCharsArray = [",", ".", "\\n", "\\", "\\\\"];
     var textElementsCount = textElements.length;
     for (var i=0; i < textElementsCount-1; i++) {

@@ -10,7 +10,7 @@ export class FillTheGapsApplication {
   }
 
   filter(mustHaveTags) {
-    debugger;
+    
     var filterContentWithTagsUseCase = new FilterContentWithTagsUseCase(
       this.#contents
     );

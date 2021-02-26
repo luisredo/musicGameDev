@@ -55,6 +55,7 @@ export class FillTheGapsView {
     var source = document.createElement("source");
     audio.setAttribute("class","audio");
     audio.setAttribute("controls", "controls");
+    audio.setAttribute("controlslist", "nodownload");
     audio.setAttribute("style","display:block");
     source.setAttribute("src",url);
     audio.append(source);
@@ -80,7 +81,7 @@ export class FillTheGapsView {
       if (element.tag === true) {
         var input = document.createElement("input");
         input.setAttribute("data-response", element.text);
-        input.className = "wordElement";
+        input.className = "wordElement box";
         input.style.color = "black";
         input.setAttribute("type", "text");
         div.append(input);
